@@ -4,9 +4,9 @@ author: Kris
 categories: [news]
 ---
 
-<style>p {text-align: justify;}</style>
-
 This post briefly explains what to expect in January 2021 from Security Kiwi.
+
+<style>p {text-align: justify;}</style>
 
 ## The First Content
 
