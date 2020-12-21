@@ -4,7 +4,7 @@ title: Road Map
 width: small
 ---
 
-Course content is updated twice a month, on the first and third thursday. Below are new pages, sections, projects and other updates which are coming soon. You can support the development of new content through <a href="" target="_blank">Patreon</a>.
+Course content is updated twice a month, on the first and third thursday. Below are new pages, sections, projects and other updates which are coming soon. You can support the development of new content through Patreon.
 
 <b>In January new content will be added every week on Thursday.</b>
 
