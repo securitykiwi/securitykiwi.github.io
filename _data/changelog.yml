@@ -1,0 +1,66 @@
+# Changelog page source
+
+- title: January 7th (Launch day)
+  label:
+  date: Jan 7, 2021
+  list:
+  - Introduction to the Course
+  - What is Machine Learning?
+  - Types of Machine Learning
+  - Machine Learning Project Stages
+  - Machine Learning in Security
+  - How to Approach Learning
+  - Python Refresher
+  - Environment Setup
+  - Considering Data Collection
+  - Collecting Data
+  - Existing Datasets & Data Sources
+  - Challenges with Datasets
+  - Exploring Datasets
+  - Dataset preparation
+  - Introduction to Training
+
+- title: January 14th Update
+  label:
+  date: Jan 14, 2021
+  list:
+  - Training Regression Models (Training Models)
+
+- title: January 21st Update
+  label: 
+  date: Jan 21, 2021
+  list:
+  - Training Neural Networks (Training Models)
+  - Convolutional Neural Networks (Algorithms & Techniques)
+  - Glossary (Resources)
+  
+- title: January 28th Update
+  label: 
+  date: Jan 28, 2021
+  list:
+  - Neural Network Activation Functions (Training Models)
+  
+- title: February 4th Update
+  label: 
+  date: Feb 4, 2021
+  list:
+  - Optimization Algorithms (Training Models)
+  - Open Source Machine Learning Tools (Resources)
+  - URG16 Dataset Analysis (Open Datasets & Analysis)
+  
+- title: February 18th Update
+  label: 
+  date: Feb 18, 2021
+  list:
+  - Challenges in Training (Training Models)
+  - Regression (Algorithms & Techniques)
+  - DARPA 1998/1999 Dataset Analysis (Open Datasets & Analysis)
+  
+- title: March 4th Update
+  label: 
+  date: Mar 4, 2021
+  list:
+  - More detail soon.
+  
+  
+  

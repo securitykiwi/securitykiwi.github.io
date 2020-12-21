@@ -1,0 +1,52 @@
+{% if include.columns %}
+    {% assign columns = include.columns %}
+    {% if columns == '1' %}
+        {% assign container = ' uk-container-xsmall' %}
+    {% elsif columns == '2' %}
+        {% assign container = ' uk-container-small' %}
+    {% else %}
+        {% assign container = '' %}
+    {% endif %}
+{% else %}
+    {% assign columns = 3 %}
+    {% assign container = '' %}
+{% endif %}
+
+<div class="uk-section">
+    <div class="uk-container{{container}}">
+
+        {% if include.title %}
+            <h2 class="uk-h1 uk-text-center">{{ include.title }}</h2>
+        {% endif %}
+
+        {% if include.subtitle %}<p class="uk-text-lead uk-text-center">{{ include.subtitle | escape }}</p>{% endif %}
+
+        <div class="uk-child-width-1-{{ columns }}@m uk-grid-match uk-text-center uk-margin-medium-top" data-uk-grid>
+            <div>
+                <div class="uk-card uk-card-default uk-box-shadow-medium uk-card-hover uk-card-body uk-inline border-radius-large border-xlight">
+                    <a class="uk-position-cover" href="{{ doc.url | relative_url }}"></a>
+                    <span data-uk-icon="icon: cog; ratio: 3.4" class=""></span>
+                    <h3 class="uk-card-title uk-margin">Approachable</h3>
+                    <p>Beginner friendly. You don't need to be "good at math" here.</p>
+                </div>
+            </div>
+            <div>
+                <div class="uk-card uk-card-default uk-box-shadow-medium uk-card-hover uk-card-body uk-inline border-radius-large border-xlight">
+                    <a class="uk-position-cover" href="{{ doc.url | relative_url }}"></a>
+                    <span data-uk-icon="icon: code; ratio: 3.4" class=""></span>
+                    <h3 class="uk-card-title uk-margin">Learn the Tools</h3>
+                    <p>You will use Python, Scikit-Learn, Keras and TensorFlow.</p>
+                </div>
+            </div>
+            
+            <div>
+                <div class="uk-card uk-card-default uk-box-shadow-medium uk-card-hover uk-card-body uk-inline border-radius-large border-xlight">
+                    <a class="uk-position-cover" href="{{ doc.url | relative_url }}"></a>
+                    <span data-uk-icon="icon: settings; ratio: 3.4" class=""></span>
+                    <h3 class="uk-card-title uk-margin">Real-world Projects</h3>
+                    <p>We build up to creating useful machine learning systems.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

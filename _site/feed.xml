@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2020-12-21T15:04:12+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Security Kiwi</title><subtitle>Self-Teach Machine Learning Through This Course</subtitle><author><name>{&quot;name&quot;=&gt;nil, &quot;title&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil}</name></author><entry><title type="html">Security Kiwi Coming January 7th 2021</title><link href="http://localhost:4000/coming-on-january-7-2021/" rel="alternate" type="text/html" title="Security Kiwi Coming January 7th 2021" /><published>2020-12-17T00:00:00+00:00</published><updated>2020-12-17T00:00:00+00:00</updated><id>http://localhost:4000/coming-on-january-7-2021</id><content type="html" xml:base="http://localhost:4000/coming-on-january-7-2021/">&lt;p&gt;This post breifly explains what to expect in January 2021 from Security Kiwi.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-first-content&quot;&gt;The First Content&lt;/h2&gt;
+
+&lt;p&gt;On January 7th, the first Thursday of the month, the first content will appear on Security Kiwi. Three sections will be released:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Introduction&lt;/strong&gt;. The introduction section will introduce the site, machine learning, machine learning in security, provide a python refresher and describe setting up your environment for the tutorials used throughout this course.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Datasets &amp;amp; Data Collection&lt;/strong&gt;. This section discusses gathering data and using existing datasets, the challenges of each, and introduces the reader to a number of data science skills used to manipulate, clean and prepare data for use in the context of machine learning.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Training Models&lt;/strong&gt;. This section introduces concepts in model training using practical exmples of three different regression algorithms and artificial neural networks. We use common examples from academia, the MNIST handwritten dataset and logic gates for example. We discuss optimization algorithms and the challenges involved in training models.&lt;/p&gt;
+
+&lt;h2 id=&quot;content-coming-in-january&quot;&gt;Content Coming in January&lt;/h2&gt;
+
+&lt;p&gt;Twice per month new content is added to Security Kiwi. In January new content will be added weekly, the road map states what new content is coming and the associated launch date.&lt;/p&gt;
+
+&lt;p&gt;The following content is scheduled for release within January:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Training Models
+    &lt;ul&gt;
+      &lt;li&gt;Training Regression Models&lt;/li&gt;
+      &lt;li&gt;Training Neural Networks&lt;/li&gt;
+      &lt;li&gt;Neural Network Activation Functions&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Algorithms &amp;amp; Techniques
+    &lt;ul&gt;
+      &lt;li&gt;Convolutional Neural Networks&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Resources
+    &lt;ul&gt;
+      &lt;li&gt;Glossary&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This course is an on-going effort, supported via Patreon. Support allows me to dedicate more time and resources to its completion. If at any point after launch you find yourself considering the content valuable please consider becoming a Patron, even if you’ve never Patreon’d before. The Patreon will also launch on January 7th.&lt;/p&gt;
+
+&lt;p&gt;In return for your patronage you can get access to materials which will aid active learning, including screencast walkthroughs and downloadable workbooks. All Patron’s recieve access to content previews, discussions, Q&amp;amp;A and a vote on which content comes next.&lt;/p&gt;
+
+&lt;h3 id=&quot;get-in-touch&quot;&gt;Get in Touch&lt;/h3&gt;
+
+&lt;p&gt;If you have any quesitons, suggestions, feedback or find a typo &lt;a href=&quot;/contact&quot; target=&quot;_blank&quot;&gt;get in touch&lt;/a&gt;.&lt;/p&gt;</content><author><name>Kris</name></author><summary type="html">This post breifly explains what to expect in January 2021 from Security Kiwi.</summary></entry></feed>

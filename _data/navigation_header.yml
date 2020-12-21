@@ -1,0 +1,22 @@
+# Navbar left menu navigation links
+
+left:
+  - title: Home
+    url: /
+
+  - title: Course
+    url: /docs/introduction/
+
+  - title: Blog
+    url: /blog/
+
+  - title: Road Map
+    url: /road-map
+
+# Navbar right menu navigation links
+
+right:
+
+  - title: Questions
+    url: /contact/
+    button: warning-outline

@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Introduction to the Course | Security Kiwi</title>
+<meta name="generator" content="Jekyll v3.4.1" />
+<meta property="og:title" content="Introduction to the Course" />
+<meta property="og:locale" content="en" />
+<meta name="description" content="Self-Teach Machine Learning Through This Course" />
+<meta property="og:description" content="Self-Teach Machine Learning Through This Course" />
+<link rel="canonical" href="http://localhost:4000/docs/introduction/" />
+<meta property="og:url" content="http://localhost:4000/docs/introduction/" />
+<meta property="og:site_name" content="Security Kiwi" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-12-21T15:04:12+00:00" />
+<script type="application/ld+json">
+{"url":"http://localhost:4000/docs/introduction/","headline":"Introduction to the Course","dateModified":"2020-12-21T15:04:12+00:00","datePublished":"2020-12-21T15:04:12+00:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/docs/introduction/"},"description":"Self-Teach Machine Learning Through This Course","@type":"BlogPosting","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  <meta property="og:image" content="http://localhost:4000/uploads/"/>
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="shortcut icon" type="image/png" href="/uploads/favicon.png" >
+  <link rel="alternate" type="application/rss+xml" title="Security Kiwi" href="/feed.xml">
+  <script src="/assets/js/main.js"></script>
+  <script src="https://kit.fontawesome.com/80ac71d229.js" crossorigin="anonymous"></script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CFVBRCC9PB"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        
+        gtag('config', 'G-CFVBRCC9PB');
+    </script>
+  
+    <script>
+function searchResults(form) {
+
+    var currentItem = null;
+    var search = document.getElementById(form);
+    var results = document.getElementById(form + "-results");
+    var toggle = document.getElementById(form + "-toggle");
+
+    function removeActive() {
+        for (i = 0; i < results.children.length; i++) {
+            results.children[i].classList.remove("uk-background-muted");
+        }
+    }
+
+    // Detect all clicks on the document
+    document.addEventListener("click", function(event) {
+
+        var isClickSearch = false;
+        var isClickResults = false;
+        var isClickSearchToggle = false;
+
+        if (search !== null) {
+            isClickSearch = search.contains(event.target);
+        }
+
+        if (results !== null) {
+            isClickResults = results.contains(event.target);
+        }
+
+        if (toggle !== null) {
+            isClickSearchToggle = toggle.contains(event.target);
+        }
+
+        if (isClickSearch || isClickSearchToggle) {
+            results.style.display = "block";
+        }        
+
+        if (!isClickResults && !isClickSearch && !isClickSearchToggle) {
+            results.style.display = "none";
+        }        
+        
+    });    
+
+    results.addEventListener("mouseover", function(event) {
+
+        removeActive();
+        event.target.parentElement.classList.add("uk-background-muted");
+        currentItem = null;
+
+    });
+
+    results.addEventListener("mouseout", function(event) {
+        event.target.parentElement.classList.remove("uk-background-muted");
+    });
+
+
+    search.addEventListener("keyup", function(event) {
+
+        var resultItems = results.children;
+        var resultCount = results.children.length;
+                                
+        if (event.keyCode === 40) {
+
+            if (currentItem < (resultCount - 1)) {
+                if (currentItem === null) {
+                    currentItem = 0;
+                } else {
+                    removeActive();
+                    currentItem++;
+                }
+                removeActive();
+                resultItems[currentItem].classList.add("uk-background-muted");
+            }
+            
+        } else if (event.keyCode === 38) {
+
+            if (currentItem > 0) {
+                if (currentItem === null) {
+                    currentItem = 0;
+                } else {
+                    removeActive();
+                    currentItem--;
+                }
+                removeActive();
+                resultItems[currentItem].classList.add("uk-background-muted");
+            }
+
+        } else if (event.keyCode === 13) {
+
+            resultItems[currentItem].children[0].click();
+
+        }
+
+    });
+
+}
+</script>
+  
+  
+  
+</head>
+
+    <body>
+
+    
+        <div data-uk-sticky="animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; cls-inactive: uk-navbar-transparent; top: 200">
+    <nav class="uk-navbar-container">
+        <div class="uk-container">
+            <div data-uk-navbar>
+                <div class="uk-navbar-left">
+                    <a class="uk-navbar-item uk-logo uk-visible@m" href="/">Security Kiwi</a>
+                    
+                        <a class="uk-navbar-toggle uk-hidden@m" href="#offcanvas-docs" data-uk-toggle><span data-uk-navbar-toggle-icon></span> <span class="uk-margin-small-left">Docs</span></a>
+                    
+
+                    <ul class="uk-navbar-nav uk-visible@m">
+                        
+                            
+                            
+                            
+                                
+                                    
+                                        <li><a href="/" >Home</a></li>
+                                                                                                        
+                                
+                            
+                        
+                            
+                            
+                            
+                                
+                                    
+                                        <li class="uk-active"><a href="/docs/introduction/" >Course</a></li>
+                                                                                                        
+                                
+                            
+                        
+                            
+                            
+                            
+                                
+                                    
+                                        <li><a href="/blog/" >Blog</a></li>
+                                                                                                        
+                                
+                            
+                        
+                            
+                            
+                            
+                                
+                                    
+                                        <li><a href="/road-map" >Road Map</a></li>
+                                                                                                        
+                                
+                            
+                        
+                    </ul>
+                </div>
+                <div class="uk-navbar-center uk-hidden@m">
+                    <a class="uk-navbar-item uk-logo" href="/">Security Kiwi</a>
+                </div>
+                <div class="uk-navbar-right">
+                    
+                        
+                            <div>
+                                <a id="search-navbar-toggle" class="uk-navbar-toggle" uk-search-icon href="#"></a>
+                                <div class="uk-drop uk-background-default uk-border-rounded" uk-drop="mode: click; pos: left-center; offset: 0">
+                                    <form class="uk-search uk-search-navbar uk-width-1-1" onsubmit="return false;">
+                                        <input id="search-navbar" class="uk-search-input" type="search" placeholder="Search for answers" autofocus autocomplete="off">
+                                    </form>
+                                    <ul id="search-navbar-results" class="uk-position-absolute uk-width-1-1 uk-list"></ul>
+                                </div>
+                            </div>
+                            <script>
+                            SimpleJekyllSearch({
+                                searchInput: document.getElementById('search-navbar'),
+                                resultsContainer: document.getElementById('search-navbar-results'),
+                                noResultsText: '<li class="no-results">No results found</li>',
+                                searchResultTemplate: '<li><a href="{url}">{title}</a></li>',
+                                json: "/search.json"
+                            });
+                            searchResults("search-navbar");
+                            </script>
+                        
+                    
+
+                    <ul class="uk-navbar-nav uk-visible@m">
+                        
+                            
+                            
+                            
+                                
+                                    <li><div class="uk-navbar-item"><a class="uk-button uk-button-warning-outline" href="/contact/" >Questions</a></div></li>
+                                
+                            
+                        
+                    </ul>
+
+                    
+                        <a class="uk-navbar-toggle uk-hidden@m" href="#offcanvas" data-uk-toggle><span data-uk-navbar-toggle-icon></span> <span class="uk-margin-small-left">Menu</span></a>
+                    
+
+                </div>
+            </div>
+        </div>
+    </nav>
+</div>
+    
+
+    <div class="uk-section">
+    <div class="uk-container">
+        <div class="uk-grid-large" data-uk-grid>
+
+            <div class="sidebar-fixed-width uk-visible@m">
+                <div class="sidebar-docs uk-position-fixed uk-margin-top">
+                    
+                    <h5>Introduction</h5>
+                    <ul class="uk-nav uk-nav-default doc-nav">
+                    
+                      
+                      
+                      <li class="uk-active"><a href="/docs/introduction/">Introduction to the Course</a></li>
+                    
+                    </ul>
+                    
+                </div>
+            </div>
+
+            <div class="uk-width-1-1 uk-width-expand@m">
+
+                <article class="uk-article">
+
+                    <h1 class="uk-article-title">Introduction to the Course</h1>
+
+                    
+
+                    <div class="article-content link-primary">
+                        <style>p {text-align: justify;}</style>
+
+<p>This course teaches machine learning concepts and techniques through practical tutorials and plain-English explanation, culminating in projects focsued on cyber security. Projects such as: email malware collection, facial recognition for OSINT and threat prediction and others. <em>Much of the course content is freely accessible</em>, learners can support content development and gain access to screencast walkthroughs, downloadable workbooks, Q&amp;A and more through <a href="" target="_blank">Patreon</a>.</p>
+
+<div style="text-align:center;"><img src="/assets/images/email-malware-system-design-models.png" alt="." style="width:700px;" /></div>
+
+<p style="text-align: center; font-style: italic;">Beta diagram of an email malware collection system we build eventually (coming soon).</p>
+
+<h2 id="designed-to-reduce-the-learning-curve">Designed to Reduce the Learning Curve</h2>
+
+<p>The course approaches machine learning in a reader-friendly manner, designed to reduce the learning curve - <em>you don’t need to be good at math to learn here</em>. We consider the stages of a machine learning project: designing a system, data gathering, choosing an algorithm, training a model, evaluating and tuning the model to obtain the best performance. The aim of this is to help learners into a project-oriented state of mind as you learn to improve the chances of success beyond the course. Additionally, the course considers how people learn and implements <i>multimodal</i> learning through a mixture of text, graphics, video, code and Q&amp;A, designed to help students learn efficiently. As time goes by, quizzes, live walkthroughs, more videos and among other additions will be available.</p>
+
+<p>If you are new to programming, python or security, <em>this is not a barrier which should stop you</em>. I encourage you to try and experiment. The course provides working code and practical workflows - you don’t need to be able to program to copy. However, the greater your understanding of code, the greater your ability to move beyond the examples and apply the ideas to your projects. A page in this introduction section is dedicated to a short <a href="/docs/python-refresher/" target="_blank">Python Refresher</a> if you need it.</p>
+
+<p>Why “course” and not “book” or “site”? I want the learner to <a href="/docs/how-to-approach-learning/" target="_blank">actively engage in learning</a>, as you would in a course taught in a classroom. Here, unlike a book, you have <em>access to a tutor</em> (for lack of a better word) - I encourage you to <a href="/contact/" target="_blank">send me any questions</a> you have. Learning materials such as video walkthroughs, downloadable workshops and Q&amp;A are available to Patreon supporters, in addition to votes on content and the access to the community. Once Security Kiwi becomes sustainable, I plan to add live walkthroughs, animation and more (keep reading).</p>
+
+<h2 id="let-me-introduce-myself">Let Me Introduce Myself</h2>
+
+<p>Hi, I’m Kris. I was fortunate to study computer science and cyber security at undergraduate and graduate level respectively. Both of my dissertations explored machine learning; one seeking to use an academic natural language processing (NLP) algorithm in the then new TensorFlow; and the other, on the feasibility of using indicators of compromise (IoC) for projecting attacker behaviour within networks. I am not an expert on machine learning, however, I can share what I have learned over my years of education and tinkering.</p>
+
+<p>I taught myself machine learning starting with my undergraduate project. I found the information in the public domain was limited; it had a steep learning curve and much of the information was confined to the academic journals only accessible to students and researchers. While some of this has changed - high-quality books now exist - much of the innovation in machine learning relating to cyber security is <em>still confined to academic journals</em> (and private companies) and barriers around ease of understanding still exist (i.e lots of math). This course is derived from academic research, books, my education and my own learning with the aim of being as easy to understand for those with limited math skill. The result is a course anyone can follow and self-teach machine learning for security from scratch.</p>
+
+<h2 id="whats-in-the-course">What’s in the Course?</h2>
+
+<p>The structure of the course follows three conceptual areas:</p>
+
+<ul>
+  <li><strong>Foundations</strong>, we learn foundational theory and implement tutorials to understand,</li>
+  <li><strong>Practical projects</strong> we create interesting security-related projects, such as email malware collection systems, intrusion detection systems and more to come,</li>
+  <li><strong>Resources</strong>, information to help you to move beyond the course content and provide detailed information on specific algorithms, datasets and subjects such as how to conduct research.</li>
+</ul>
+
+<p>As time goes by the content will be further refined and more intermediate and advanced material will be added. <em>New content is added twice per month</em>, on the first and third thursday of the month. For the month of January (2021) new content will be added <em>weekly</em>.</p>
+
+<p>The course is freely accessible, I don’t like the idea of putting heafty financial barriers in front of knowledge. The course is an on-going effort, made financially viable through Patreon. In return readers gain access to material to increase the efficiency of learning; screencast walkthroughs, downloadable workshops, Q&amp;A etc. Eventually, live walkthroughs and more. Typically, programming books cost $40 USD and video courses cost from $90 USD onwards. To obtain all of the materials for this course on Patreon it costs $12 /mo. Downloadable content is DRM free, so you can keep it if you decide to stop supporting. For supporters who don’t want video or downloads, just to say thanks for the free content, gain access to the Q&amp;A and a few patreon-only perks the first tier is $7 /mo.</p>
+
+<h3 id="course-content">Course Content</h3>
+
+<p>Below is an overview of the course content by page/section title. New content is added once every two weeks; major updates on the first and minor updates third Thursday of the month. See the <a href="/road-map" target="_blank">Road Map</a> for detail on things to come.</p>
+
+<p><strong>Content at launch:</strong></p>
+
+<ul>
+  <li>Introduction
+    <ul>
+      <li>Introduction to the Course</li>
+      <li>What is Machine Learning?</li>
+      <li>Types of Machine Learning</li>
+      <li>Machine Learning Project Stages</li>
+      <li>Machine Learning in Security</li>
+      <li>How to Approach Learning</li>
+      <li>Python Refresher</li>
+      <li>Environment Setup</li>
+    </ul>
+  </li>
+  <li>Datasets &amp; Data Collection
+    <ul>
+      <li>Considering Data Collection</li>
+      <li>Collecting Data</li>
+      <li>Existing Datasets &amp; Data Sources</li>
+      <li>Challenges with Datasets</li>
+      <li>Exploring Datasets</li>
+      <li>Dataset preparation</li>
+    </ul>
+  </li>
+  <li>Training Models
+    <ul>
+      <li>Introduction to Training</li>
+    </ul>
+  </li>
+</ul>
+
+<p><strong>Content coming by the end of January:</strong></p>
+
+<ul>
+  <li>Training Models (Continued)
+    <ul>
+      <li>Training Regression Models</li>
+      <li>Training Neural Networks</li>
+      <li>Neural Network Activation Functions</li>
+    </ul>
+  </li>
+  <li>Algorithms &amp; Techniques
+    <ul>
+      <li>Convolutional Neural Networks</li>
+    </ul>
+  </li>
+  <li>Resources
+    <ul>
+      <li>Glossary</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="the-future-of-the-course">The Future of the Course</h2>
+
+<p>As times goes by more types of content will be available, and previous content will be upgraded where necessary (e.g better video, animation).</p>
+
+<p>Everyone:</p>
+
+<ul>
+  <li><strong>Animation</strong> - commission animation to explain concepts visually.</li>
+  <li><strong>Interactive visuals</strong> - interactive JavaScript visuals to explain and show how different value changes effect aspects under discussion.</li>
+  <li><strong>Topic quizes</strong> - sections will end with quizes so learners can see which areas you need to work on.</li>
+  <li><strong>Live streamed tutorials</strong> - Live streamed walkthroughs of tutorials.</li>
+  <li><strong>Cool swag development</strong> - not random merch. Unique, well-done AI/ML designs on things which further support content development. Plus AI/ML themed stickers. <em>Hackers like stickers</em>.</li>
+</ul>
+
+<p>Patreon members only:</p>
+
+<ul>
+  <li><strong>More downloadable workbooks</strong> - downloadable PDF workbooks further exploring various subjects we discuss.</li>
+  <li><strong>More screencast walkthroughs</strong> - video walkthroughs for code examples and technical concepts.</li>
+  <li><strong>Live walkthroughs</strong> - Live streamed walkthroughs of concepts, projects, tutorials etc.</li>
+  <li><strong>Downloadable workbooks</strong> - worksheets to help learners actively engage in learning.</li>
+  <li><strong>Higher production quality videos</strong> - Outsource video editing.</li>
+  <li><strong>Monthly book give-aways</strong> - books on machine learning, artificial intelligence, python, programming (e.g. <a href="https://www.amazon.com/Superintelligence-Dangers-Strategies-Nick-Bostrom/dp/0198739834" target="_blank">Superintelligence</a>, <a href="https://www.amazon.com/Learn-Python-Hard-Way-Introduction/dp/0134692888" target="_blank">Learn Python 3 the Hard Way</a>)</li>
+</ul>
+
+<h2 id="design-conventions-and-elements">Design, Conventions and Elements</h2>
+
+<p>A great deal of effort has gone into the creation of the course from a design point of view, both in terms architecture of the course and the aesthetic of the website. Both of these elements alter how effective the learning experience is.</p>
+
+<p>The architecture of the course draws on <a href="/docs/how-to-approach-learning/" target="_blank">research</a> to consider how humans learn to ensure learners gain as much as possible as they learn. We start with plain English, I attempt to use simple English, without ‘dumbing down’, to reduce fatigue and make the content friendly to non-native English speakers. The concept of <a href="https://en.wikipedia.org/wiki/Spaced_repetition" target="_blank">spaced retention</a> is used to refer back to foundational knowledge as learners progress.</p>
+
+<p>Good design aids <i>multimodal learning</i> - that is the combination of a number of learning ‘styles’. Text is augmented by graphics, videos and code. I intend to add live video walkthroughs, quizzes, animation and other helpful elements over time. Colour-blind users benefit from a research-derived <a href="https://personal.sron.nl/~pault/#sec:qualitative" target="_blank">colour palette</a>. I intend to further improve accessibility, using CSS and text rather than images where possible, and to make all pages available as audio recordings, for example. Please <a href="/contact" target="_blank">get in touch</a> with accessibility suggestions and feedback.</p>
+
+<ul>
+  <li>Light blue underlined words are <a href="#">hyperlinks</a>.</li>
+  <li>White <i>itallics</i> are used for emphasis, to show new words, or the description of an image.</li>
+  <li>Green-coloured <em>itallics</em> are used for emphasis.</li>
+  <li>Yellow dotted underlined words are hyperlinks to entries in the glossary (coming soon).</li>
+  <li>Dark grey block backgrounds contain code (shown below).</li>
+</ul>
+
+<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">code</span><span class="p">:</span>
+    <span class="n">show_an_example</span>
+    <span class="k">return</span> <span class="n">show_an_example</span>
+</code></pre>
+</div>
+
+<h2 id="feedback">Feedback</h2>
+
+<p>If you have feedback, questions or find a typo please reach out at <a href="/contact">securitykiwi [ at ] protonmail [dot] com</a>. Seriously, if you think a section isn’t clear or have constructive feedback, drop me an email.</p>
+
+                        
+                            <div class="share uk-text-center uk-margin-medium-top">
+    
+        <a class="uk-link-muted" href="https://twitter.com/intent/tweet?text=Introduction to the Course&url=http://localhost:4000/docs/introduction/&via=&related=" rel="nofollow" target="_blank" title="Share on Twitter" onclick="window.open(this.href, 'twitter', 'width=550,height=235');return false;"><span data-uk-icon="icon: twitter; ratio: 1.2"></span></a>
+    
+    
+        <a class="uk-link-muted uk-margin-small-left" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fdocs%2Fintroduction%2F" rel="nofollow" target="_blank" title="Share on Facebook" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;"><span data-uk-icon="icon: facebook; ratio: 1.2"></span></a>
+    
+</div>
+                        
+                    </div>
+
+                    
+
+                    <hr class="uk-margin-medium">
+
+                    
+
+
+  
+  
+    <div class="uk-margin-large-top paginate-post">
+        <div class="uk-child-width-expand@s uk-grid-large uk-pagi" data-uk-grid>
+            <div>
+                
+                
+            </div>
+            <div>
+                
+                
+            </div>
+        </div>
+    </div>
+    
+
+
+                    
+                </article>
+
+                <script>
+                    // Table of contents scroll to
+                    UIkit.scroll('#markdown-toc a', {
+                        duration: 400,
+                        offset: 120
+                    });
+                </script>
+
+            </div>
+
+    </div>
+</div>
+
+
+    <div id="offcanvas-docs" data-uk-offcanvas="overlay: true">
+    <div class="uk-offcanvas-bar">
+
+        <button class="uk-offcanvas-close" type="button" data-uk-close></button>
+
+        
+        <h5 class="uk-margin-top">Introduction</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class="uk-active"><a href="/docs/introduction/">Introduction to the Course</a></li>
+        
+        </ul>
+        
+
+    </div>
+</div>
+
+
+    <div id="offcanvas" data-uk-offcanvas="flip: true; overlay: true">
+    <div class="uk-offcanvas-bar">
+
+        <a class="uk-logo uk-margin-small-bottom" href="/">Security Kiwi</a>
+     
+        <button class="uk-offcanvas-close" type="button" data-uk-close></button>
+      
+        <ul class="uk-nav uk-nav-primary uk-margin-top">
+            
+                
+
+                
+
+                
+                    <li><a href="/" >Home</a></li>
+                
+            
+                
+
+                
+
+                
+                    <li class="uk-active"><a href="/docs/introduction" >Course</a></li>
+                
+            
+                
+
+                
+
+                
+                    <li><a href="/blog/" >Blog</a></li>
+                
+            
+                
+
+                
+
+                
+                    <li><a href="/road-map/" >Road Map</a></li>
+                
+            
+                
+
+                
+
+                
+                    <li><div class="uk-navbar-item"><a class="uk-button uk-button-warning-outline" href="/contact/" >Questions</a></div></li>
+                
+            
+        </ul>
+
+        <div class="uk-margin-top uk-text-center">
+            <div data-uk-grid class="uk-child-width-auto uk-grid-small uk-flex-center uk-grid">
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+    
+
+    
+        
+    
+
+    
+
+    </body>
+
+</html>

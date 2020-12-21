@@ -1,0 +1,101 @@
+{% if include.tag %}
+<div class="uk-section section-featured{% if include.background %} uk-section-{{include.background}}{% endif %}">
+    <div class="uk-container uk-container-small">
+
+        {% if include.title %}
+        <h2 class="uk-h1 uk-text-center">{{ include.title }}</h2>
+        {% endif %}
+
+        {% if include.subtitle %}
+            <p class="uk-text-center uk-text-lead">{{ include.subtitle | escape }}</p>
+        {% endif %}
+        
+        <div class="uk-child-width-1-2 uk-margin-medium-top" data-uk-grid>
+            <div>
+                <h3>Content Coming on January 7th</h3>
+            <ul>
+                <li>Introduction</li>
+                <ul>    
+                    <li>Introduction to the Course</li>
+                    <li>What is Machine Learning?</li>
+                    <li>Types of Machine Learning</li>
+                    <li>Machine Learning Project Stages</li>
+                    <li>Machine Learning in Security</li>
+                    <li>How to Approach Learning</li>
+                    <li>Python Refresher</li>
+                    <li>Environment Setup</li>
+                </ul>
+                <li>Datasets & Data Collection</li>
+                <ul>    
+                    <li>Considering Data Collection</li>
+                    <li>Collecting Data</li>
+                    <li>Existing Datasets & Data Sources</li>
+                    <li>Challenges with Datasets</li>
+                    <li>Exploring Datasets</li>
+                    <li>Dataset preparation</li>
+                </ul>
+                <li>Training Models</li>
+                <ul>
+                    <li>Introduction to Training</li>
+                </ul>
+                </ul>
+            </div>
+            <div>
+                <h3>Content Coming Soon & Planned</h3>
+                <ul>
+                    <li>Training Models (Continued)</li>
+                <ul>                    
+                    <li>Training Regression Models)</li>
+                    <li>Training Neural Networks</li>
+                    <li>Neural Network Activation Functions</li>
+                    <li> Optimization Algorithms</li>
+                    <li>Challenges in Training</li>
+                </ul>
+                <li>Model Evaluation & Tuning</li>
+                <ul>    
+                    <li>Model Experimentation</li>
+                    <li>Model Evaluation</li>
+                    <li>Model Tuning</li>
+                </ul>
+                <li>Designing Systems</li>
+                <ul>
+                    <li>How to Design Machine Learning Systems </li>
+                    <li>Design an Email Malware Collection System </li>
+                </ul>
+                <li>TensorFlow and Keras</li>
+                <ul>    
+                    <li>Introduction to TensorFlow & Keras</li>
+                    <li>Foundational Algorithms in Deep Learning</li>
+                </ul>
+                <li>Email Malware Collection System (Project)</li>
+                <ul>
+                    <li>Project Introduction</li>
+                    <li>Data Input Pipeline</li>
+                    <li>Data Preprocessing</li>
+                    <li>Build the Model</li>
+                    <li>Data Output Pipeline</li>
+                    <li>The Finished System </li>
+                </ul>
+                <li>Algorithms & Techniques</li>
+                <ul>
+                    <li>Convolutional Neural Networks</li>
+                    <li><i>More coming.</i></li>
+                </ul>
+                <li>Open Datasets & Analysis</li>
+                <ul>
+                    <li>UGR'16</li>
+                    <li><i>More coming.</i></li>
+                </ul>
+                <li>Resources</li>
+                <ul>
+                    <li>How to Conduct Research</li>
+                    <li>Open Source Machine Learning Tools</li>
+                    <li>Glossary</li>
+                </ul>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+{% endif %}
+

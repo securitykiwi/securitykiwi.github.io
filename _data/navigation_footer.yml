@@ -1,0 +1,13 @@
+# Footer navigation links
+
+- title: Privacy
+  url: /privacy-policy/
+
+- title: Road Map
+  url: /road-map/
+  
+- title: Blog
+  url: /blog/
+
+- title: Contact
+  url: /contact/

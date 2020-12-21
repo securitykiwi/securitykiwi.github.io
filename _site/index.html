@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Security Kiwi | Self-Teach Machine Learning Through This Course</title>
+<meta name="generator" content="Jekyll v3.4.1" />
+<meta property="og:title" content="Security Kiwi" />
+<meta property="og:locale" content="en" />
+<meta name="description" content="Self-Teach Machine Learning Through This Course" />
+<meta property="og:description" content="Self-Teach Machine Learning Through This Course" />
+<link rel="canonical" href="http://localhost:4000/" />
+<meta property="og:url" content="http://localhost:4000/" />
+<meta property="og:site_name" content="Security Kiwi" />
+<script type="application/ld+json">
+{"url":"http://localhost:4000/","headline":"Security Kiwi","name":"Security Kiwi","description":"Self-Teach Machine Learning Through This Course","@type":"WebSite","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  <meta property="og:image" content="http://localhost:4000/uploads/"/>
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="shortcut icon" type="image/png" href="/uploads/favicon.png" >
+  <link rel="alternate" type="application/rss+xml" title="Security Kiwi" href="/feed.xml">
+  <script src="/assets/js/main.js"></script>
+  <script src="https://kit.fontawesome.com/80ac71d229.js" crossorigin="anonymous"></script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CFVBRCC9PB"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        
+        gtag('config', 'G-CFVBRCC9PB');
+    </script>
+  
+    <script>
+function searchResults(form) {
+
+    var currentItem = null;
+    var search = document.getElementById(form);
+    var results = document.getElementById(form + "-results");
+    var toggle = document.getElementById(form + "-toggle");
+
+    function removeActive() {
+        for (i = 0; i < results.children.length; i++) {
+            results.children[i].classList.remove("uk-background-muted");
+        }
+    }
+
+    // Detect all clicks on the document
+    document.addEventListener("click", function(event) {
+
+        var isClickSearch = false;
+        var isClickResults = false;
+        var isClickSearchToggle = false;
+
+        if (search !== null) {
+            isClickSearch = search.contains(event.target);
+        }
+
+        if (results !== null) {
+            isClickResults = results.contains(event.target);
+        }
+
+        if (toggle !== null) {
+            isClickSearchToggle = toggle.contains(event.target);
+        }
+
+        if (isClickSearch || isClickSearchToggle) {
+            results.style.display = "block";
+        }        
+
+        if (!isClickResults && !isClickSearch && !isClickSearchToggle) {
+            results.style.display = "none";
+        }        
+        
+    });    
+
+    results.addEventListener("mouseover", function(event) {
+
+        removeActive();
+        event.target.parentElement.classList.add("uk-background-muted");
+        currentItem = null;
+
+    });
+
+    results.addEventListener("mouseout", function(event) {
+        event.target.parentElement.classList.remove("uk-background-muted");
+    });
+
+
+    search.addEventListener("keyup", function(event) {
+
+        var resultItems = results.children;
+        var resultCount = results.children.length;
+                                
+        if (event.keyCode === 40) {
+
+            if (currentItem < (resultCount - 1)) {
+                if (currentItem === null) {
+                    currentItem = 0;
+                } else {
+                    removeActive();
+                    currentItem++;
+                }
+                removeActive();
+                resultItems[currentItem].classList.add("uk-background-muted");
+            }
+            
+        } else if (event.keyCode === 38) {
+
+            if (currentItem > 0) {
+                if (currentItem === null) {
+                    currentItem = 0;
+                } else {
+                    removeActive();
+                    currentItem--;
+                }
+                removeActive();
+                resultItems[currentItem].classList.add("uk-background-muted");
+            }
+
+        } else if (event.keyCode === 13) {
+
+            resultItems[currentItem].children[0].click();
+
+        }
+
+    });
+
+}
+</script>
+  
+  
+  
+</head>
+
+    <body>
+
+    
+        
+
+
+
+<header class="uk-background-center-center uk-background-cover" style="">
+    <div class="uk-overlay-header" style="">
+
+        <div data-uk-sticky="animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; cls-inactive: uk-navbar-transparent; top: 200">
+    <nav class="uk-navbar-container">
+        <div class="uk-container">
+            <div data-uk-navbar>
+                <div class="uk-navbar-left">
+                    <a class="uk-navbar-item uk-logo uk-visible@m" href="/">Security Kiwi</a>
+                    
+                        <a class="uk-navbar-toggle uk-hidden@m" href="#offcanvas-docs" data-uk-toggle><span data-uk-navbar-toggle-icon></span> <span class="uk-margin-small-left">Docs</span></a>
+                    
+
+                    <ul class="uk-navbar-nav uk-visible@m">
+                        
+                            
+                            
+                            
+                                
+                                    
+                                        <li class="uk-active"><a href="/" >Home</a></li>
+                                                                                                        
+                                
+                            
+                        
+                            
+                            
+                            
+                                
+                                    
+                                        <li><a href="/docs/introduction/" >Course</a></li>
+                                                                                                        
+                                
+                            
+                        
+                            
+                            
+                            
+                                
+                                    
+                                        <li><a href="/blog/" >Blog</a></li>
+                                                                                                        
+                                
+                            
+                        
+                            
+                            
+                            
+                                
+                                    
+                                        <li><a href="/road-map" >Road Map</a></li>
+                                                                                                        
+                                
+                            
+                        
+                    </ul>
+                </div>
+                <div class="uk-navbar-center uk-hidden@m">
+                    <a class="uk-navbar-item uk-logo" href="/">Security Kiwi</a>
+                </div>
+                <div class="uk-navbar-right">
+                    
+                        
+                    
+
+                    <ul class="uk-navbar-nav uk-visible@m">
+                        
+                            
+                            
+                            
+                                
+                                    <li><div class="uk-navbar-item"><a class="uk-button uk-button-warning-outline" href="/contact/" >Questions</a></div></li>
+                                
+                            
+                        
+                    </ul>
+
+                    
+                        <a class="uk-navbar-toggle uk-hidden@m" href="#offcanvas" data-uk-toggle><span data-uk-navbar-toggle-icon></span> <span class="uk-margin-small-left">Menu</span></a>
+                    
+
+                </div>
+            </div>
+        </div>
+    </nav>
+</div>
+
+        <div class="uk-section section-hero uk-position-relative" data-uk-scrollspy="cls: uk-animation-slide-bottom-medium; repeat: true">
+            <div class="uk-container uk-container-small">
+                
+                <p class="hero-image uk-text-center"><img src="http://localhost:4000/uploads/hero-card.jpg" alt="Hero"></p>
+                
+                <h1 class="uk-heading-primary uk-text-center uk-margin-remove-top">Machine Learning for Security</h1>
+                <p class="uk-text-lead uk-text-center">A Self-Paced Machine Learning Course from Data Gathering to Implementation in Python.</p>
+            </div>
+        </div>
+
+    </div>
+</header>
+    
+
+    
+    
+<div class="uk-section section-videos">
+    <div class="uk-container uk-container-xsmall">
+
+        
+            <h2 class="uk-h1 uk-text-center">Coming January 7th</h2>
+        
+
+        
+
+        <div class="uk-child-width-1-1@m uk-grid-match uk-text-center uk-margin-medium-top" data-uk-grid="" data-uk-lightbox="">
+            <div>
+                    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/s1_iANzX7JU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div class="uk-section section-videos">
+    <div class="uk-container uk-container-xsmall">
+
+            <h2 class="uk-h1 uk-text-center">Get the Launch Reminder Email</h2>
+
+        <div class="uk-child-width-1-1@m uk-grid-match uk-text-center uk-margin-medium-top" data-uk-grid="" data-uk-lightbox="">
+            <div>
+                <!-- Begin Mailchimp Signup Form -->
+<link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+	#mc_embed_signup{clear:left; font:14px Helvetica,Arial,sans-serif; }
+	/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+</style>
+<div id="mc_embed_signup">
+<form action="https://krisbolton.us12.list-manage.com/subscribe/post?u=f493e5bbda4cf62b8809b4b61&amp;id=798a6931cc" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">
+    <div id="mc_embed_signup_scroll">
+	
+<div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+<div class="mc-field-group">
+	<label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
+</label>
+	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" />
+</div>
+	<div id="mce-responses" class="clear">
+		<div class="response" id="mce-error-response" style="display:none"></div>
+		<div class="response" id="mce-success-response" style="display:none"></div>
+	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_f493e5bbda4cf62b8809b4b61_798a6931cc" tabindex="-1" value="" /></div>
+    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button" /></div>
+    </div>
+</form>
+</div>
+<script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script><script type="text/javascript">(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+<!--End mc_embed_signup-->
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div class="uk-section section-featured">
+    <div class="uk-container uk-container-small">
+
+        
+        <h2 class="uk-h1 uk-text-center">What Will I Learn?</h2>
+        
+
+        
+            <p class="uk-text-center uk-text-lead">An Overview of the Contents Currently Planned</p>
+        
+        
+        <div class="uk-child-width-1-2 uk-margin-medium-top" data-uk-grid="">
+            <div>
+                <h3>Content Coming on January 7th</h3>
+            <ul>
+                <li>Introduction</li>
+                <ul>    
+                    <li>Introduction to the Course</li>
+                    <li>What is Machine Learning?</li>
+                    <li>Types of Machine Learning</li>
+                    <li>Machine Learning Project Stages</li>
+                    <li>Machine Learning in Security</li>
+                    <li>How to Approach Learning</li>
+                    <li>Python Refresher</li>
+                    <li>Environment Setup</li>
+                </ul>
+                <li>Datasets &amp; Data Collection</li>
+                <ul>    
+                    <li>Considering Data Collection</li>
+                    <li>Collecting Data</li>
+                    <li>Existing Datasets &amp; Data Sources</li>
+                    <li>Challenges with Datasets</li>
+                    <li>Exploring Datasets</li>
+                    <li>Dataset preparation</li>
+                </ul>
+                <li>Training Models</li>
+                <ul>
+                    <li>Introduction to Training</li>
+                </ul>
+                </ul>
+            </div>
+            <div>
+                <h3>Content Coming Soon &amp; Planned</h3>
+                <ul>
+                    <li>Training Models (Continued)</li>
+                <ul>                    
+                    <li>Training Regression Models)</li>
+                    <li>Training Neural Networks</li>
+                    <li>Neural Network Activation Functions</li>
+                    <li> Optimization Algorithms</li>
+                    <li>Challenges in Training</li>
+                </ul>
+                <li>Model Evaluation &amp; Tuning</li>
+                <ul>    
+                    <li>Model Experimentation</li>
+                    <li>Model Evaluation</li>
+                    <li>Model Tuning</li>
+                </ul>
+                <li>Designing Systems</li>
+                <ul>
+                    <li>How to Design Machine Learning Systems </li>
+                    <li>Design an Email Malware Collection System </li>
+                </ul>
+                <li>TensorFlow and Keras</li>
+                <ul>    
+                    <li>Introduction to TensorFlow &amp; Keras</li>
+                    <li>Foundational Algorithms in Deep Learning</li>
+                </ul>
+                <li>Email Malware Collection System (Project)</li>
+                <ul>
+                    <li>Project Introduction</li>
+                    <li>Data Input Pipeline</li>
+                    <li>Data Preprocessing</li>
+                    <li>Build the Model</li>
+                    <li>Data Output Pipeline</li>
+                    <li>The Finished System </li>
+                </ul>
+                <li>Algorithms &amp; Techniques</li>
+                <ul>
+                    <li>Convolutional Neural Networks</li>
+                    <li><i>More coming.</i></li>
+                </ul>
+                <li>Open Datasets &amp; Analysis</li>
+                <ul>
+                    <li>UGR'16</li>
+                    <li><i>More coming.</i></li>
+                </ul>
+                <li>Resources</li>
+                <ul>
+                    <li>How to Conduct Research</li>
+                    <li>Open Source Machine Learning Tools</li>
+                    <li>Glossary</li>
+                </ul>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="uk-section">
+    <div class="uk-container uk-container-small">
+
+        
+            <h2 class="uk-h1 uk-text-center">Frequently Asked Questions</h2>
+        
+
+        
+
+        
+
+        <ul class="uk-margin-medium-top" data-uk-accordion="multiple: true">
+            
+                <li>
+                    <a class="uk-accordion-title uk-box-shadow-hover-small" href="#">What do I get by supporting via Patreon?</a>
+                    <div class="article-content uk-accordion-content link-primary"><p>There’s the written content, code and diagrams which is freely accessible. Further open content is under developement, updates are twice a month (first and third thursday). Exclusive to Patreon supporters are:</p>
+
+<ul>
+  <li><strong>Screencast walkthroughs</strong> - video walkthroughs on various pages, with more planned. Videos aid multimodal learning and are perfect for visual learners.</li>
+  <li><strong>Downloadable workbooks</strong> - PDF materials expanding on the freely accessible content diving deeper or otherwise providing more opptunities for learning and understanding.</li>
+  <li><strong>Q&amp;As</strong> - learners send questions (via <a href="/contact/" target="_blank">email</a>) and I answer these via email and post the Q&amp;A on Patreon for the community to benefit.</li>
+</ul>
+
+<h4 id="in-the-future">In The Future</h4>
+
+<p>As Security Kiwi becames financially sustainable more content, and more types of content, will become available.</p>
+
+<p>Patron’s only:</p>
+
+<ul>
+  <li><strong>More downloadable workbooks</strong> - More workbooks expanding on content to help learners <em>actively</em> engage.</li>
+  <li><strong>More screencast walkthroughs</strong> - More video screencasts showing tutorials and explaining concepts.</li>
+  <li><strong>Live walkthroughs</strong> - Live streamed walkthroughs of concepts, projects, tutorials etc.</li>
+  <li><strong>Higher production quality videos</strong> - Explore options, outsource video editing?</li>
+  <li><strong>Book give-aways</strong> - books on machine learning, artificial intelligence, python, programming (e.g. <a href="https://www.amazon.com/Superintelligence-Dangers-Strategies-Nick-Bostrom/dp/0198739834" target="_blank">Superintelligence</a>, <a href="https://www.amazon.com/Learn-Python-Hard-Way-Introduction/dp/0134692888" target="_blank">Learn Python 3 the Hard Way</a>)</li>
+</ul>
+
+<p>Everyone:</p>
+
+<ul>
+  <li><strong>Animation</strong> - commission animation to explain concepts visually.</li>
+  <li><strong>Interactive visuals</strong> - interactive JavaScript visuals to explain and show how different value changes effect aspects under discussion.</li>
+  <li><strong>Topic quizes</strong> - sections will end with quizes so learners can see which areas they need to work on.</li>
+  <li><strong>Cool swag development</strong> - not random merch. Unique, well-done, interesting AI/ML related designs on things. Plus AI/ML themed stickers. <em>Hackers like stickers</em>.</li>
+</ul>
+</div>                
+                </li>
+            
+                <li>
+                    <a class="uk-accordion-title uk-box-shadow-hover-small" href="#">How can I see what new content is coming?</a>
+                    <div class="article-content uk-accordion-content link-primary"><p>Check out the <a href="/road-map/" target="_blank">Road Map</a>. Content is added and updated twice a month, on the first and third thursday.</p>
+</div>                
+                </li>
+            
+                <li>
+                    <a class="uk-accordion-title uk-box-shadow-hover-small" href="#">Why Patreon?</a>
+                    <div class="article-content uk-accordion-content link-primary"><h4 id="why-patreon-why-not-an-ebook">Why Patreon? Why not an eBook?</h4>
+
+<p>Patreon lowers the barrier to entry. An eBook would cost many times more than the Patreon pledge and book-video bundles cost many times more on top of that (~$90+). This Patreon-supported model allows the majority of the content to be free and supports future development over the long term by providing me a more consistent income for me to write, design, build and test.</p>
+</div>                
+                </li>
+            
+                <li>
+                    <a class="uk-accordion-title uk-box-shadow-hover-small" href="#">Can I cancel Patreon?</a>
+                    <div class="article-content uk-accordion-content link-primary"><p>Yes, at any time. Go to Patreon’s <a href="https://support.patreon.com/hc/en-us/articles/360005502572-Cancel-my-membership" target="_blank">support page</a> for instructions.</p>
+</div>                
+                </li>
+            
+                <li>
+                    <a class="uk-accordion-title uk-box-shadow-hover-small" href="#">Can I suggest an idea?</a>
+                    <div class="article-content uk-accordion-content link-primary"><p>Sure. If you would like to see a specific project, or something else added to the course please drop me an email. <a href="" target="">securitykiwi [at] protonmail [dot] com</a>.</p>
+</div>                
+                </li>
+            
+                <li>
+                    <a class="uk-accordion-title uk-box-shadow-hover-small" href="#">You didn't answer my question</a>
+                    <div class="article-content uk-accordion-content link-primary"><p>Please get in touch with any questions or feedback. If you find a section difficult to understand, find a typo or anything else, please drop me an email. <a href="/contact/" target="_blank">securitykiwi [at] protonmail [dot] com</a>.</p>
+</div>                
+                </li>
+            
+        </ul>
+
+    </div>
+</div>
+
+
+
+    <div id="offcanvas-docs" data-uk-offcanvas="overlay: true">
+    <div class="uk-offcanvas-bar">
+
+        <button class="uk-offcanvas-close" type="button" data-uk-close></button>
+
+        
+        <h5 class="uk-margin-top">Introduction</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/docs/introduction/">Introduction to the Course</a></li>
+        
+        </ul>
+        
+
+    </div>
+</div>
+
+
+    <div id="offcanvas" data-uk-offcanvas="flip: true; overlay: true">
+    <div class="uk-offcanvas-bar">
+
+        <a class="uk-logo uk-margin-small-bottom" href="/">Security Kiwi</a>
+     
+        <button class="uk-offcanvas-close" type="button" data-uk-close></button>
+      
+        <ul class="uk-nav uk-nav-primary uk-margin-top">
+            
+                
+
+                
+
+                
+                    <li class="uk-active"><a href="/" >Home</a></li>
+                
+            
+                
+
+                
+
+                
+                    <li><a href="/docs/introduction" >Course</a></li>
+                
+            
+                
+
+                
+
+                
+                    <li><a href="/blog/" >Blog</a></li>
+                
+            
+                
+
+                
+
+                
+                    <li><a href="/road-map/" >Road Map</a></li>
+                
+            
+                
+
+                
+
+                
+                    <li><div class="uk-navbar-item"><a class="uk-button uk-button-warning-outline" href="/contact/" >Questions</a></div></li>
+                
+            
+        </ul>
+
+        <div class="uk-margin-top uk-text-center">
+            <div data-uk-grid class="uk-child-width-auto uk-grid-small uk-flex-center uk-grid">
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+    
+        <footer class="uk-section uk-text-center uk-text-muted">
+    <div class="uk-container uk-container-small">
+
+        <div>
+            <ul class="uk-subnav uk-flex-center">
+                
+                    
+                    
+                    
+                        <li><a href="/privacy-policy/" >Privacy</a></li>
+                    
+                
+                    
+                    
+                    
+                        <li><a href="/road-map/" >Road Map</a></li>
+                    
+                
+                    
+                    
+                    
+                        <li><a href="/blog/" >Blog</a></li>
+                    
+                
+                    
+                    
+                    
+                        <li><a href="/contact/" >Contact</a></li>
+                    
+                
+            </ul>
+        </div>
+        <div class="uk-margin-medium">
+            <div data-uk-grid class="uk-child-width-auto uk-grid-small uk-flex-center uk-grid">
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+        <div class="uk-margin-medium uk-text-small copyright link-secondary">© 2020 Kris Bolton</div>
+
+    </div>
+</footer>
+
+    
+
+    
+
+    
+
+    </body>
+
+</html>

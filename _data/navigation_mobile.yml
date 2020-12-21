@@ -1,0 +1,17 @@
+# Mobile menu navigation links
+
+- title: Home
+  url: /
+
+- title: Course
+  url: /docs/introduction
+
+- title: Blog
+  url: /blog/
+
+- title: Road Map
+  url: /road-map/
+
+- title: Questions
+  url: /contact/
+  button: warning-outline
