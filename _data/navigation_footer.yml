@@ -1,13 +1,10 @@
 # Footer navigation links
 
-- title: Privacy
+- title: Privacy Policy
   url: /privacy-policy/
-
-- title: Road Map
-  url: /road-map/
   
-- title: Blog
-  url: /blog/
-
 - title: Contact
   url: /contact/
+
+- title: Donate Crypto
+  url: https://commerce.coinbase.com/checkout/d1a54caf-ba67-46b9-9821-7e7da59632db

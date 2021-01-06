@@ -1,25 +1,5 @@
 # Changelog page source
 
-- title: January 7th (Launch day)
-  label:
-  date: Jan 7, 2021
-  list:
-  - Introduction to the Course
-  - What is Machine Learning?
-  - Types of Machine Learning
-  - Machine Learning Project Stages
-  - Machine Learning in Security
-  - How to Approach Learning
-  - Python Refresher
-  - Environment Setup
-  - Considering Data Collection
-  - Collecting Data
-  - Existing Datasets & Data Sources
-  - Challenges with Datasets
-  - Exploring Datasets
-  - Dataset preparation
-  - Introduction to Training
-
 - title: January 14th Update
   label:
   date: Jan 14, 2021

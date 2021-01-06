@@ -1,3 +1,31 @@
 - title: Introduction
   docs:
   - introduction
+  - what-is-machine-learning
+  - types-of-machine-learning
+  - machine-learning-project-stages
+  - machine-learning-examples-in-security
+  - how-to-approach-learning
+  - python-refresher
+  - environment-setup
+
+- title: Datasets & Data Collection
+  docs:
+  - considering-data
+  - collecting-data
+  - existing-datasets-and-data-sources
+  - challenges-of-datasets
+  - exploring-datasets
+  - dataset-preparation
+
+- title: Training Models
+  docs:
+  - introduction-to-training-models
+
+- title: Algorithms & Techniques
+  docs:
+  - introduction-to-algorithms-and-techniques
+  
+- title: Open Datasets & Analysis
+  docs:
+  - introduction-to-open-datasets-and-analysis

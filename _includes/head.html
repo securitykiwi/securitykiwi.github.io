@@ -5,19 +5,17 @@
   {% seo %}
   <meta property="og:image" content="{% if site.logo contains 'http' %}{{ site.logo }}{% else %}{{ site.uploads | absolute_url }}{{ site.logo }}{% endif %}"/>
   <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+  <link rel="preconnect" href="https://ka-f.fontawesome.com">
+  <link rel="dns-prefetch" href="https://ka-f.fontawesome.com">
+  <link rel="preconnect" href="https://plausible.io">
+  <link rel="dns-prefetch" href="https://plausible.io">
+  <link rel="preconnect" href="https://securitykiwi.b-cdn.net">
+  <link rel="dns-prefetch" href="https://securitykiwi.b-cdn.net">
   <link rel="shortcut icon" type="image/png" href="{{ "uploads/favicon.png" | relative_url }}" >
   <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
-  <script src="{{ "/assets/js/main.js" | relative_url }}"></script>
+  <script src="https://securitykiwi.b-cdn.net/js/main.js"></script>
   <script src="https://kit.fontawesome.com/80ac71d229.js" crossorigin="anonymous"></script>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CFVBRCC9PB"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        
-        gtag('config', 'G-CFVBRCC9PB');
-    </script>
+  <script async defer data-domain="security.kiwi" src="https://plausible.io/js/plausible.js"></script>
   {% if page.hero.search or site.navbar.search %}
     {% include search-js.html %}
   {% endif %}

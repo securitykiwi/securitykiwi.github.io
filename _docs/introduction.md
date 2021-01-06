@@ -5,7 +5,7 @@ author:
 
 <style>p {text-align: justify;}</style>
 
-This course teaches machine learning concepts and techniques through practical tutorials and plain-English explanation, culminating in projects focsued on cyber security. Projects such as: email malware collection, facial recognition for OSINT and threat prediction and others. _Much of the course content will be freely accessible_, learners can support content development and gain access to screencast walkthroughs, downloadable workbooks, Q&A and more through Patreon.
+This course teaches machine learning concepts and techniques through practical tutorials and plain-English explanation, culminating in projects focsued on cyber security. Projects such as: email malware collection, facial recognition for OSINT and threat prediction and others. _Much of the course content is freely accessible_, learners can support content development and gain access to screencast walkthroughs, PDF workbooks and references, Q&A and more through <a href="https://www.patreon.com/securitykiwi" target="_blank">Patreon</a>.
 
 <div style="text-align:center;"><img src="/assets/images/email-malware-system-design-models.png" alt="." style="width:700px;"/></div>
 
@@ -88,10 +88,9 @@ Everyone:
 
 Patreon members only:
 
-* **More downloadable workbooks** - downloadable PDF workbooks further exploring various subjects we discuss.
+* **More downloadable material** - More PDFs expanding on content to help learners _actively_ engage and references on specific issues providing easy access to solutions.
 * **More screencast walkthroughs** - video walkthroughs for code examples and technical concepts.
 * **Live walkthroughs** - Live streamed walkthroughs of concepts, projects, tutorials etc.
-* **Downloadable workbooks** - worksheets to help learners actively engage in learning.
 * **Higher production quality videos** - Outsource video editing.
 * **Monthly book give-aways** - books on machine learning, artificial intelligence, python, programming (e.g. <a href="https://www.amazon.com/Superintelligence-Dangers-Strategies-Nick-Bostrom/dp/0198739834" target="_blank">Superintelligence</a>, <a href="https://www.amazon.com/Learn-Python-Hard-Way-Introduction/dp/0134692888" target="_blank">Learn Python 3 the Hard Way</a>)
 

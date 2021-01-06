@@ -15,3 +15,7 @@
 - title: Questions
   url: /contact/
   button: warning-outline
+  
+- title: Become a Patron
+  url: https://www.patreon.com/securitykiwi
+  button: success-outline
