@@ -8,10 +8,8 @@ hero:
     search: true
 ---
 
-{% include intro.html columns="1" title="Coming January 7th" %}
+{% include featured.html tag="featured" title="What Will I Learn?" subtitle="An Overview of the Currently Planned Content" %}
 
 {% include email-signup.html columns="1" %}
-
-{% include featured.html tag="featured" title="What Will I Learn?" subtitle="An Overview of the Contents Currently Planned" %}
 
 {% include faqs.html multiple="true" title="Frequently Asked Questions" %}
