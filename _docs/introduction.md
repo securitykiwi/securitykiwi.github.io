@@ -5,7 +5,7 @@ author:
 
 <style>p {text-align: justify;}</style>
 
-This course teaches machine learning concepts and techniques through practical tutorials and plain-English explanation, culminating in projects focsued on cyber security. Projects such as: email malware collection, facial recognition for OSINT and threat prediction and others. _Much of the course content is freely accessible_, learners can support content development and gain access to screencast walkthroughs, PDF workbooks and references, Q&A and more through <a href="https://www.patreon.com/securitykiwi" target="_blank">Patreon</a>.
+This course teaches machine learning concepts and techniques through practical tutorials and plain-English explanation, culminating in projects focused on cyber security. Projects such as: email malware collection, facial recognition for OSINT and threat prediction and others. _Much of the course content is freely accessible_, learners can support content development and gain access to screencast walkthroughs, PDF workbooks and references, Q&A and more through <a href="https://www.patreon.com/securitykiwi" target="_blank">Patreon</a>.
 
 <div style="text-align:center;"><img src="/assets/images/email-malware-system-design-models.png" alt="." style="width:700px;"/></div>
 
