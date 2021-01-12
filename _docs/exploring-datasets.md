@@ -138,7 +138,7 @@ We can add the column headings to the individual columns to aid our understandin
 
 ```python
 df.columns = ['Date time', 'Duration', 'Source IP',
-              'Destination IP', 'Source Port', 'Destination IP',
+              'Destination IP', 'Source Port', 'Destination Port',
               'Protocol', 'Flag', 'Forwarding status', 'ToS',
               'Packets', 'Bytes', 'Label']
 df.head()
