@@ -114,6 +114,10 @@ for i in code:
     return show_an_example
 ```
 
+## Email Updates
+
+Sign up for <a href="http://eepurl.com/dpUUKD" target="_blank">email updates</a> on new content. No spam, 1 email per month.
+
 ## Feedback
 
 If you have feedback, questions or find a typo please reach out at <a href="/contact">securitykiwi [ at ] protonmail [dot] com</a>. Seriously, if you think a section isn't clear or have constructive feedback, drop me an email. 
