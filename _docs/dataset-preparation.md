@@ -24,7 +24,15 @@ Each section on this page has an associated Google CoLab live environment specif
 
 ### First Steps
 
-{% include video.html %}
+<div class="uk-child-width-1-{{ columns }}@m uk-grid-match uk-text-center uk-margin-medium-top">
+<div>
+    <div class="uk-card uk-card-default uk-box-shadow-small uk-box-shadow-hover-medium uk-card-body uk-inline border-radius-large border-xlight">
+    <a class="uk-position-cover" href="https://www.patreon.com/posts/45853398" data-caption="."></a>
+    <span data-uk-icon="icon: play-circle; ratio: 3.4" class=""></span>
+    <p class="uk-text-center">A video screencast is available for Patreon Supporters.</p>
+    </div>
+</div>
+</div>
 
 Let's get some data to work on:
 

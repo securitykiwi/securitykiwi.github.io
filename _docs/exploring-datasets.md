@@ -18,7 +18,15 @@ Follow along in a <a href="/docs/environment-setup" target="_blank">Jupyter Note
 
 The UGR16 dataset is huge, much like all of the datasets listed in <a href="/docs/existing-datasets-and-data-sources/" target="_blank">Existing Datasets & Data Sources</a>. The 'July Week 5' csv file is _52GB uncompressed_, so I have provided <a href="" target="_blank">the first 5,000 rows</a> for us to look at, it's only 483kb.
 
-{% include video.html %}
+<div class="uk-child-width-1-{{ columns }}@m uk-grid-match uk-text-center uk-margin-medium-top">
+<div>
+    <div class="uk-card uk-card-default uk-box-shadow-small uk-box-shadow-hover-medium uk-card-body uk-inline border-radius-large border-xlight">
+    <a class="uk-position-cover" href="https://www.patreon.com/posts/45853398" data-caption="."></a>
+    <span data-uk-icon="icon: play-circle; ratio: 3.4" class=""></span>
+    <p class="uk-text-center">A video screencast is available for Patreon Supporters.</p>
+    </div>
+</div>
+</div>
 
 You can upload files into Jupyter Notebook using the 'upload' button on the right.
 
@@ -50,7 +58,15 @@ Now we have the csv file 'ugr16-july-week5-first5k' in Jupyter we can use Pandas
 
 Let's get a summary of the data within a dataset. 
 
-{% include video.html %}
+<div class="uk-child-width-1-{{ columns }}@m uk-grid-match uk-text-center uk-margin-medium-top">
+<div>
+    <div class="uk-card uk-card-default uk-box-shadow-small uk-box-shadow-hover-medium uk-card-body uk-inline border-radius-large border-xlight">
+    <a class="uk-position-cover" href="https://www.patreon.com/posts/45854481" data-caption="."></a>
+    <span data-uk-icon="icon: play-circle; ratio: 3.4" class=""></span>
+    <p class="uk-text-center">A video screencast is available for Patreon Supporters.</p>
+    </div>
+</div>
+</div>
 
 ### Data Overview
 

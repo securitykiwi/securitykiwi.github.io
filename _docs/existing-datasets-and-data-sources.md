@@ -11,6 +11,6 @@ A later section of the course, <a href="/docs/introduction-to-open-datasets-and-
 
 <h2 style="text-align: center;">Download Available</h2>
 
-<div style="text-align:center;"><a href="https://www.patreon.com/securitykiwi"><img src="https://securitykiwi.b-cdn.net/images/existing-datasets-reference-book.jpg" alt="." style="width:500px;"/></a></div>
+<div style="text-align:center;"><a href="https://www.patreon.com/posts/45882545"><img src="https://securitykiwi.b-cdn.net/images/existing-datasets-reference-book.jpg" alt="." style="width:500px;"/></a></div>
 
 A reference book outlining 11 datasets suitable for security projects is availalbe for <a href="https://www.patreon.com/securitykiwi">Patreon supporters</a>. The current version is v1.0. As with all security kiwi content, reference books are expanded over time.
