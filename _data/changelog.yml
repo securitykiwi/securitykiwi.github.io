@@ -11,7 +11,6 @@
   date: Jan 21, 2021
   list:
   - Training Neural Networks (Training Models)
-  - Convolutional Neural Networks (Algorithms & Techniques)
   - Glossary (Resources)
   
 - title: January 28th Update
@@ -19,6 +18,7 @@
   date: Jan 28, 2021
   list:
   - Neural Network Activation Functions (Training Models)
+  - Convolutional Neural Networks (Algorithms & Techniques)
   
 - title: February 4th Update
   label: 
