@@ -116,7 +116,7 @@ for i in code:
 
 ## Email Updates
 
-Sign up for <a href="http://eepurl.com/dpUUKD" target="_blank">email updates</a> on new content. No spam, 1 email per month.
+Sign up for <a href="http://eepurl.com/dpUUKD" target="_blank">email updates</a> on new content. No spam, 1 email per month. You can find me <a href="https://www.twitter.com/krisbolton" target="_blank">@krisbolton</a>.
 
 ## Feedback
 
