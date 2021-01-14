@@ -21,6 +21,7 @@
 - title: Training Models
   docs:
   - introduction-to-training-models
+  - training-regression-models
 
 - title: Algorithms & Techniques
   docs:
