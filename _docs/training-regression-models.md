@@ -28,7 +28,7 @@ Linear regression is a technique from the field of statistics, many aspects of m
 
 A popular example is the number of cricket (the insect) chirps per minute mapped to temperature; as temperature increases crickets chirp more frequently, their chirps slow down as temperature decreases. You can predict temperature from the frequency of cricket chirps, and you can predict the number of cricket chirps per minute from temperature.
 
-<div style="text-align:center;"><img src="/assets/images/training-algorithms/crickets-temp-graph.jpg" alt="A graph illustrating cricket chirps versus temperature." style="width:400px;"/></div>
+<div style="text-align:center;"><img src="https://securitykiwi.b-cdn.net/images/training-algorithms/crickets-temp-graph.jpg" alt="A graph illustrating cricket chirps versus temperature." style="width:400px;"/></div>
 
 <p style="text-align: center; font-style: italic;">An example of a linear graph, temperature versus cricket chirps.</p>
 
@@ -40,7 +40,7 @@ Despite linear regressions strengths for some tasks, it has downsides for others
 
 <i>Cost functions</i> determine the optimal predicated values for us to create a line which best fits input data. Cost functions measure the difference between the actual and predicted values, this difference is called the "error". The scikit-learn Linear Regression implementation uses the <i>Ordinary Least Squares</i> regression technique, where the aim is to minimise the sum of the distance from each data point to the regression line squared and the sum of all squared errors. This can be better understood with the graph below.
 
-<div style="text-align:center;"><img src="/assets/images/ordinary-least-square-graph.jpg" alt="A graph illustrating  least square, minimising the surface area of each square creates the optimal line." style="width:700px;"/></div>
+<div style="text-align:center;"><img src="https://securitykiwi.b-cdn.net/images/ordinary-least-square-graph.jpg" alt="A graph illustrating  least square, minimising the surface area of each square creates the optimal line." style="width:700px;"/></div>
 
 <p style="text-align: center; font-style: italic;">An illustrative example of least squares applied to data points.</p>
 
@@ -91,7 +91,7 @@ plt.ylabel('count')
 plt.tight_layout()
 ```
 
-<div style="text-align:center;"><img src="/assets/images/training-algorithms/boston-prices-hist.jpg" alt="A histagram showing the distribution of boston house prices. Prices resemble a mountain, most house prices are around 200,000 dollars." style="width:350px;"/></div>
+<div style="text-align:center;"><img src="https://securitykiwi.b-cdn.net/images/training-algorithms/boston-prices-hist.jpg" alt="A histagram showing the distribution of boston house prices. Prices resemble a mountain, most house prices are around 200,000 dollars." style="width:350px;"/></div>
 
 <p style="text-align: center; font-style: italic;">A histagram showing the distribution of boston house prices.</p>
 
@@ -157,7 +157,7 @@ plt.xlabel("Actucal price ($1000s)")
 plt.ylabel("Predicted price ($1000s)")
 plt.tight_layout()
 ```
-<div style="text-align:center;"><img src="/assets/images/training-algorithms/boston-prices-predicted.jpg" alt="A graph showing the predicted and actual prices of boston houses." style="width:400px;"/></div>
+<div style="text-align:center;"><img src="https://securitykiwi.b-cdn.net/images/training-algorithms/boston-prices-predicted.jpg" alt="A graph showing the predicted and actual prices of boston houses." style="width:400px;"/></div>
 
 <p style="text-align: center; font-style: italic;">A graph of the predicted and actual prices of boston houses.</p>
 
@@ -186,7 +186,7 @@ Polynomial regression is a technique which allows us to work with more complex d
 
 The graph below shows the relationship between the `boston.target` value, the median house value (MEDV) and the 'lower status of the population' (LSTAT), a measurement of the proportion of adults without, some high school education and proportion of male workers classified as labourers.
 
-<div style="text-align:center;"><img src="/assets/images/training-algorithms/non-linear-data-boston.jpg" alt="." style="width:400px;"/></div>
+<div style="text-align:center;"><img src="https://securitykiwi.b-cdn.net/images/training-algorithms/non-linear-data-boston.jpg" alt="." style="width:400px;"/></div>
 
 <p style="text-align: center; font-style: italic;">Median house value (MEDV) vs. LSTAT, non-linear data.</p>
 
@@ -284,7 +284,7 @@ plt.plot(x, y_pred, color='#ee8866')
 plt.show()
 ```
 
-<div style="text-align:center;"><img src="/assets/images/training-algorithms/boston-polynomial-regression.jpg" alt="." style="width:400px;"/></div>
+<div style="text-align:center;"><img src="https://securitykiwi.b-cdn.net/images/training-algorithms/boston-polynomial-regression.jpg" alt="." style="width:400px;"/></div>
 
 <p style="text-align: center; font-style: italic;">A graph showing polynomial regression fitting a non-linear best fit line.</p>
 
@@ -297,7 +297,7 @@ The regression techniques we have discussed so far are not suited to classificat
 
 The logistic function, also called the sigmoid function, forms the core of logistic regression. The technique performs the same action as linear regression but compresses input values between the range of 0 and 1, represented by an S-shaped curve. These values can be mapped to probabilities, for example, 0.2 is 20% 0.85 is 85%. It can be said that logistic regression creates a probability of an input sitting within a class. For example, is this email spam or not?
 
-<div style="text-align:center;"><img src="/assets/images/training-algorithms/sigmoid-activation-function.jpg" alt="Logistic Regression also known as the Sigmoid function, an S-shaped curve between y axis values 0 and 1." style="width:400px;"/></div>
+<div style="text-align:center;"><img src="https://securitykiwi.b-cdn.net/images/training-algorithms/sigmoid-activation-function.jpg" alt="Logistic Regression also known as the Sigmoid function, an S-shaped curve between y axis values 0 and 1." style="width:400px;"/></div>
 
 <p style="text-align: center; font-style: italic;">Logistic function, also known as the sigmoid function.</p>
 
@@ -350,7 +350,7 @@ for index, (image, label) in enumerate(zip(train_img[0:5], train_lbl[0:5])):
  plt.title('Training: %s\n' % label, fontsize = 20)
 ```
 
-<div style="text-align:center;"><img src="/assets/images/training-algorithms/mnist-dataset-example.jpg" alt="Example handwritten digits from the MNIST dataset." style="width:500px;"/></div>
+<div style="text-align:center;"><img src="https://securitykiwi.b-cdn.net/images/training-algorithms/mnist-dataset-example.jpg" alt="Example handwritten digits from the MNIST dataset." style="width:500px;"/></div>
 
 <p style="text-align: center; font-style: italic;">Examples of handwritten digits from the MNIST dataset.</p>
 
@@ -388,7 +388,6 @@ print(score)
 ```
 
 Our logistic regression model achieved 91% accuracy.
-
 
 
 ## Summary
