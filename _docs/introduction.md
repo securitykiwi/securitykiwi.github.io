@@ -41,7 +41,7 @@ The course is freely accessible, I don't like the idea of putting heafty financi
 
 Below is an overview of the course content by page/section title. New content is added once every two weeks; major updates on the first and minor updates third Thursday of the month. See the <a href="/road-map" target="_blank">Road Map</a> for detail on things to come.
 
-**Content at launch:**
+**Current content:**
 
 * Introduction
     * Introduction to the Course
@@ -61,11 +61,11 @@ Below is an overview of the course content by page/section title. New content is
     * Dataset preparation
 * Training Models
     * Introduction to Training
+    * Training Regression Models
     
 **Content coming by the end of January:**
 
 * Training Models (Continued)
-    * Training Regression Models
     * Training Neural Networks
     * Neural Network Activation Functions
 * Algorithms & Techniques
