@@ -4,11 +4,11 @@ author: Kris
 categories: [Q&A, OSINT]
 ---
 
-This post is part of a question & answer sent to securitykiwi [at] protonmail [dot] com. Users send in questions relating to machine learning and I answer them via email and collate the answers for Patreon supporters so they can benefit from community questions. 
+This post is part of a question & answer sent to securitykiwi [at] protonmail [dot] com. Users <a href="/contact" target="_blank">send</a> in questions relating to machine learning and I answer them via email and collate the answers for Patreon supporters to benefit from community questions. 
 
 ### Question
 
-'How to intercept (capture & analyse) whatsapp and social media messages automatically?
+'How to intercept (capture & analyse) whatsapp and social media messages automatically?'
 
 ### Answer
 
