@@ -25,8 +25,8 @@ A machine learning technique which comes to mind beyond clustering etc is <a hre
 
 I hope this helps.
 
-- Kris
+Kris
 
 ### Do You Have a Question?
 
-If you have a question related to machine learning please do <a href="/contact">send it in</a>.
+If you have a question related to machine learning please do <a href="/contact">send</a> it in.
