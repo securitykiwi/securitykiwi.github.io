@@ -5,7 +5,7 @@ author:
 
 <style>p {text-align: justify;}</style>
 
-On this page we will train two neural networks, a single-layer network to categorise simple data and a multi-layer network to compute XOR logic. Along the way we will learn how data passes through a neural network and how activation functions work to gain understanding of how training neural networks works. We start with a short explanation of what a neural network is and its architecture, and get practical by using scitkit-learns to implement a simple neural network - a <i>Perceptron</i>.
+On this page we will build and train two neural networks; a single-layer network to categorise simple data and a multi-layer network to compute XOR logic. Along the way we will learn how data passes through a neural network and how activation functions work to gain a deeper understanding of training neural networks. We start with a short explanation of what a neural network is and its architecture, and get practical by using scitkit-learns to implement a simple neural network - a <i>Perceptron</i>.
 
 The section below will be our first exposure to complex-looking math. We're using it to describe values and the processes involved, intertwined with English. If you're not comfortable with math, please do read it, _don't skim or skip over it_.
 
