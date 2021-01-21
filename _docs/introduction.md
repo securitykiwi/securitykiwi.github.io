@@ -127,4 +127,4 @@ If you have feedback, questions or find a typo please reach out at <a href="/con
 
 ---
 
-Share a page with a friend!
+<p style="text-align: center;"><i>Share a page with a friend!</i></p>
