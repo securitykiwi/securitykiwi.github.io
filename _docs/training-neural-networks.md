@@ -24,7 +24,7 @@ The section below will be our first exposure to complex-looking math. We're usin
 
 ## What is a Neural Network?
 
-A neural network is a collection of artificial neurons, arranged in layers which perform different tasks. A Perceptron is a single-layered artificial neural network used for binary classification. The image below shows an illustration of a single biological neuron annotated to describe a single artificial neuron's function. 
+A neural network is a collection of artificial neurons, arranged in layers which perform different tasks. A Perceptron is a single-layered artificial neural network used for binary classification. The perceptron is no longer widely used due to its simplicity and better techniques being developed in the sixty-plus years since its creation by Frank Rosenblatt. However, it is perfect for our initial learning. The image below shows an illustration of a single biological neuron annotated to describe a single artificial neuron's function. 
 
 <div style="text-align:center;"><img src="https://securitykiwi.b-cdn.net/images/training-algorithms/artifical-neuron.png" alt="A biological neuron annotated with aspects from artificial neural networks, describing ANNs process information." style="width:550px;"/></div>
 
