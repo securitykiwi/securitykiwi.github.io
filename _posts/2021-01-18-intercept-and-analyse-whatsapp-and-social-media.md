@@ -4,6 +4,8 @@ author: Kris
 categories: [Q&A, OSINT]
 ---
 
+<style>p {text-align: justify;}</style>
+
 This post is part of a question & answer sent to securitykiwi [at] protonmail [dot] com. Users <a href="/contact" target="_blank">send</a> in questions relating to machine learning and I answer them via email and collate the answers for <a href="https://www.patreon.com/securitykiwi" target="_blank">Patreon supporters</a> to benefit from community questions. 
 
 ### Question
