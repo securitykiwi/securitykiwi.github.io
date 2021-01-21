@@ -28,13 +28,13 @@ The section below will be our first exposure to complex-looking math. We're usin
 
 A neural network is a collection of artificial neurons, arranged in layers which perform different tasks. A Perceptron is a single-layered artificial neural network used for binary classification. The image below shows an illustration of a single biological neuron annotated to describe a single artificial neuron's function. 
 
-<div style="text-align:center;"><img src="/assets/images/training-algorithms/artifical-neuron.png" alt="A biological neuron annotated with aspects from artificial neural networks, describing ANNs process information." style="width:550px;"/></div>
+<div style="text-align:center;"><img src="https://securitykiwi.b-cdn.net/images/training-algorithms/artifical-neuron.png" alt="A biological neuron annotated with aspects from artificial neural networks, describing ANNs process information." style="width:550px;"/></div>
 
 <p style="text-align: center; font-style: italic;">Figure 1: annotated biological neuron.</p>
 
 A biological neuron receives input signals from its dendrites from other neurons and sends output signals along its axon, which branches out and connect to other neurons. In the illustration above, the input signal is represented by <i>x0</i>, as this signal ‘travels’ it is multiplied (<i>w0 x0</i>) based on the weight variable (<i>w0</i>). The weight variables are learnable and the weight's strength and polarity (positive or negative) control the influence of the signal. The influence is determined by summing the signal input, weight and bias (<i>∑ wi xi + b</i>) which is calculated by the activation function f. If the influence is above a certain threshold the neuron fires, passing data forward through the process. The diagram below shows a simplified view from above.
 
-<div style="text-align:center;"><img src="/assets/images/training-algorithms/perceptron-expanded.png" alt="An expanded view of a perceptron, showing annotations for each stage of processing." style="width:550px;"/></div>
+<div style="text-align:center;"><img src="https://securitykiwi.b-cdn.net/images/training-algorithms/perceptron-expanded.png" alt="An expanded view of a perceptron, showing annotations for each stage of processing." style="width:550px;"/></div>
 
 <p style="text-align: center; font-style: italic;">Figure 2: annotated artifical neuron.</p>
 
@@ -44,7 +44,7 @@ Don't worry if you don't fully understand this right now, the discussion and exa
 
 The Greek letter sigma (∑) is used to represent summation. In this context it can be considered analogous to a `for` loop in programming:
 
-<div style="text-align:center;"><img src="/assets/images/training-algorithms/math-summation-neuron.png" alt="An image describing how the greek letter sigma is used in math and its analogy to a for loop in code." style="width:550px;"/></div>
+<div style="text-align:center;"><img src="https://securitykiwi.b-cdn.net/images/training-algorithms/math-summation-neuron.png" alt="An image describing how the greek letter sigma is used in math and its analogy to a for loop in code." style="width:550px;"/></div>
 
 <p style="text-align: center; font-style: italic;">Figure 3: Sigma symbol explained.</p>
 
@@ -54,7 +54,7 @@ So in our case, the result of the input data and weight multiplication and addit
 
 The frequency of the firing of an artificial neuron is determined by an activation function. It determines at what threshold the neuron will fire and what the output will look like. This section describes the Sigmoid activation function to bring clarity to the operation of an artificial neuron. There are a number of activation functions which are suitable in different situations, these are discussed in the [Neural Network Activation Functions](/training-models/neural-network-activation-functions/) page.
 
-<div style="text-align:center;"><img src="/assets/images/training-algorithms/sigmoid-activation-function.jpg" alt="A graph showing the sigmoid activation function." style="width:450px;"/></div>
+<div style="text-align:center;"><img src="https://securitykiwi.b-cdn.net/images/training-algorithms/sigmoid-activation-function.jpg" alt="A graph showing the sigmoid activation function." style="width:450px;"/></div>
 
 <p style="text-align: center; font-style: italic;">Figure 4: Sigmoid activation function.</p>
 
@@ -66,7 +66,7 @@ We will use the Iris dataset, a dataset containing botanical information which h
 
 The Iris data set consists of 150 samples of four features per sample, measuring the length and width of sepals and petals (in cm), with 50 samples for three species of Iris (Iris setosa, Iris virginica and Iris versicolor). First featured in British statistician and biologist Ronald Fisher’s research article in 1936.
 
-<div style="text-align:center;"><img src="/assets/images/training-algorithms/iris-dataset-species-examples.png" alt="." style="width:400px;"/></div>
+<div style="text-align:center;"><img src="https://securitykiwi.b-cdn.net/images/training-algorithms/iris-dataset-species-examples.png" alt="." style="width:400px;"/></div>
 
 <p style="text-align: center; font-style: italic;">Images of each of the three flower species. Credit: Ashok Kumar.</p>
 
@@ -155,7 +155,7 @@ plt.yticks(())
 plt.show()
 ```
 
-<div style="text-align:center;"><img src="/assets/images/training-algorithms/iris-data-graph.jpg" alt="An graph of the iris flower data seperated into categories." style="width:400px;"/></div>
+<div style="text-align:center;"><img src="https://securitykiwi.b-cdn.net/images/training-algorithms/iris-data-graph.jpg" alt="An graph of the iris flower data seperated into categories." style="width:400px;"/></div>
 
 <p style="text-align: center; font-style: italic;">Figure 5: Iris dataset visualised.</p>
 
@@ -213,7 +213,7 @@ Perceptron(alpha=0.0001, class_weight=None, eta0=1, fit_intercept=True,
 
 If we apply aspects of the scikit-learn perceptron to our example from figure 2.0 we get:
 
-<div style="text-align:center;"><img src="/assets/images/training-algorithms/scikit-perceptron.png" alt="A diagram showing an annotated perceptron." style="width:500px;"/></div>
+<div style="text-align:center;"><img src="https://securitykiwi.b-cdn.net/images/training-algorithms/scikit-perceptron.png" alt="A diagram showing an annotated perceptron." style="width:500px;"/></div>
 
 <p style="text-align: center; font-style: italic;">Figure 6: Simplified neuron view adapted to Iris dataset.</p>
 
@@ -277,7 +277,7 @@ Scikit-learn’s perceptron is no different. The `perceptron()` function shares 
 
 Artificial neurons are typically situated in layers of a neural network defined by the type of work done by the layer. Input and output neurons sit in the first and last layer respectively - the input and output layers - and hidden neurons sit in the hidden middle layer(s).
 
-<div style="text-align:center;"><img src="/assets/images/training-algorithms/multilayer-nn.png" alt="A diagram of a three layered neural network." style="width:450px;"/></div>
+<div style="text-align:center;"><img src="https://securitykiwi.b-cdn.net/images/training-algorithms/multilayer-nn.png" alt="A diagram of a three layered neural network." style="width:450px;"/></div>
 
 <p style="text-align: center; font-style: italic;">Figure 7: An example of a multi-layered neural network.</p>
 
@@ -287,7 +287,7 @@ Consider how this network architecture operates and why it is designed this way.
 
 The neural networks we have experimented with and visualized here are feedforward neural networks. Information is passed forwards to the next layer and never backwards to the previous layer. How information is passed around a neural network can drastically change how the network functions. For example, recurrent neural networks (RNN) implement 'memory' by passing information backwards from neurons near the output neurons, allowing the network to retain an amount of information. This can be seen in the diagram below, where information is passed backwards in the hidden layer.
 
-<div style="text-align:center;"><img src="/assets/images/recurrent-neural-network.png" alt="A diagram of a recurrent neural network." style="width:450px;"/></div>
+<div style="text-align:center;"><img src="https://securitykiwi.b-cdn.net/images/recurrent-neural-network.png" alt="A diagram of a recurrent neural network." style="width:450px;"/></div>
 
 <p style="text-align: center; font-style: italic;">Figure 8: A diagram of a recurrent neural network architecture.</p>
 
@@ -301,7 +301,7 @@ Neuron naming conventions differ between sources; neurons might also be known as
 
 Input and output neurons can be thought of as placeholders which represent information passed into the network and information processed out from the network in the form of vectors or arrays. These vectors typically contain floating-point numbers. The number of elements within the vector is equal to the number of input neurons.
 
-<div style="text-align:center;"><img src="/assets/images/training-algorithms/input-and-output-neurons.png" alt="A diagram of a three layered neural network with the input and output layers highlighted." style="width:600px;"/></div>
+<div style="text-align:center;"><img src="https://securitykiwi.b-cdn.net/images/training-algorithms/input-and-output-neurons.png" alt="A diagram of a three layered neural network with the input and output layers highlighted." style="width:600px;"/></div>
 
 <p style="text-align: center; font-style: italic;">Figure 9: A neural network with the input and output layers highlighted.</p>
 
@@ -309,7 +309,7 @@ Input and output neurons can be thought of as placeholders which represent infor
 
 Hidden neurons sit in the middle of a network, surrounded by other neurons, they receive input from input neurons or other hidden neurons, and they output to output neurons or hidden neurons. They are never connected to the data or produce output themselves. This is their defining characteristic.  
 
-<div style="text-align:center;"><img src="/assets/images/training-algorithms/hidden-neurons.png" alt="A diagram of a three layered neural network with the hidden layer highlighted." style="width:450px;"/></div>
+<div style="text-align:center;"><img src="https://securitykiwi.b-cdn.net/images/training-algorithms/hidden-neurons.png" alt="A diagram of a three layered neural network with the hidden layer highlighted." style="width:450px;"/></div>
 
 <p style="text-align: center; font-style: italic;">Figure 10: A neural network with the hidden layer highlighted.</p>
 
@@ -317,13 +317,13 @@ Hidden neurons sit in the middle of a network, surrounded by other neurons, they
 
 Below is an example of a network including bias neurons. The diagram shows a neural network designed to compute XOR arguments. Each layer, excluding the input layer, has a bias neuron attached. Towards the end of this page, we will build and calculate the output of this network, and build an example in scikit-learn.
 
-<div style="text-align:center;"><img src="/assets/images/training-algorithms/XOR-NN.png" alt="An example of a neural network which implements bias neurons, an three layered XOR implementation." style="width:350px;"/></div>
+<div style="text-align:center;"><img src="https://securitykiwi.b-cdn.net/images/training-algorithms/XOR-NN.png" alt="An example of a neural network which implements bias neurons, an three layered XOR implementation." style="width:350px;"/></div>
 
 <p style="text-align: center; font-style: italic;">Figure 11: An exmple of a network designed to compute XOR arguments.</p>
 
 The addition of bias into a network helps the network learn by allowing the programmer to shift the activation function curve to the left or right, the fine-tuning of this parameter can affect the success of learning. The graph below shows how an activation function can be shifted. Without bias, we can only control the shape of the curve - through the choice of the activation function.
 
-<div style="text-align:center;"><img src="/assets/images/training-algorithms/lateral-shift-bias.jpg" alt="A graph showing multiple lines maintaining shape but moving left or right, representing control over activation functions via bias." style="width:450px;"/></div>
+<div style="text-align:center;"><img src="https://securitykiwi.b-cdn.net/images/training-algorithms/lateral-shift-bias.jpg" alt="A graph showing multiple lines maintaining shape but moving left or right, representing control over activation functions via bias." style="width:450px;"/></div>
 
 <p style="text-align: center; font-style: italic;">Figure 12: A graph showing lateral movment of an activation function due to bias manipulation.</p>
 
@@ -333,7 +333,7 @@ Context neurons exist in some specific types of neural networks and are not pres
 
 Below is an example of a recurrent neural network architecture using context neurons:
 
-<div style="text-align:center;"><img src="/assets/images/training-algorithms/context-neuron.png" alt="An example of a recurrent neural network which utilises context neurons to implement a type of memory." style="width:450px;"/></div>
+<div style="text-align:center;"><img src="https://securitykiwi.b-cdn.net/images/training-algorithms/context-neuron.png" alt="An example of a recurrent neural network which utilises context neurons to implement a type of memory." style="width:450px;"/></div>
 
 <p style="text-align: center; font-style: italic;">Figure 13: An example of a Recurrent Neural Network.</p>
 
@@ -351,13 +351,13 @@ If you're interested in learning more about logic gatees Khan Academcy has a <a 
 
 Neurons in a network can represent the logical operators (AND, OR, NOT). We will explore this to gain a more concrete understanding of how neural networks act and learn through weights and biases.
 
-<div style="text-align:center;"><img src="/assets/images/training-algorithms/and-or-not.png" alt="Diagram of AND, OR and NOT logic gates implemented as single layer neural networks." style="width:600px;"/></div>
+<div style="text-align:center;"><img src="https://securitykiwi.b-cdn.net/images/training-algorithms/and-or-not.png" alt="Diagram of AND, OR and NOT logic gates implemented as single layer neural networks." style="width:600px;"/></div>
 
 <p style="text-align: center; font-style: italic;">Figure 14: AND, OR and NOT single-layer neural networks.</p>
 
 The output of the network is calculated by summing the input, weights and biases. For simplicity in our example, we will use a step activation function, outputs will be conformed to a boolean output, positive or negative. However, in actual implementations the network is predicting outputs, so a step function would not be suitable, a function which compresses values to a range between 0 and 1, or -1 and 1 would be more appropriate.
 
-<div style="text-align:center;"><img src="/assets/images/training-algorithms/step-activation-function.jpg" alt="Diagram of AND, OR and NOT logic gates implemented as single layer neural networks." style="width:450px;"/></div>
+<div style="text-align:center;"><img src="https://securitykiwi.b-cdn.net/images/training-algorithms/step-activation-function.jpg" alt="Diagram of AND, OR and NOT logic gates implemented as single layer neural networks." style="width:450px;"/></div>
 
 <p style="text-align: center; font-style: italic;">Figure 15: A step activation function.</p>
 
@@ -396,7 +396,7 @@ Exclusive OR or XOR provides a logical structure which specifics that only one o
 
 Now that we have the truth table, lets build an XOR neural network in theory (as opposed to building it with code), reinforcing our understanding of the basic functionality of neurons, how they interact and how a network operates. Then we'll code an XOR neural network.
 
-<div style="text-align:center;"><img src="/assets/images/training-algorithms/XOR-NN-vertical.png" alt="An annotated XOR neural network showing input, bias and weight values of each neuron." style="width:300px;"/></div>
+<div style="text-align:center;"><img src="https://securitykiwi.b-cdn.net/images/training-algorithms/XOR-NN-vertical.png" alt="An annotated XOR neural network showing input, bias and weight values of each neuron." style="width:300px;"/></div>
 
 <p style="text-align: center; font-style: italic;">Figure 16: A design of a neural network designed to compute XOR.</p>
 
@@ -505,7 +505,7 @@ print("MLP's XOR probabilities:\n[class0, class1]\n{}".format(pred))
 
 #### Results
 
-<div style="text-align:center;"><img src="/assets/images/training-algorithms/xor-decision-boundry.jpg" alt="An annotated XOR neural network showing input, bias and weight values of each neuron." style="width:350px;"/></div>
+<div style="text-align:center;"><img src="https://securitykiwi.b-cdn.net/images/training-algorithms/xor-decision-boundry.jpg" alt="An annotated XOR neural network showing input, bias and weight values of each neuron." style="width:350px;"/></div>
 
 <p style="text-align: center; font-style: italic;">Figure 17: XOR decision boundries visualised.</p>
 
