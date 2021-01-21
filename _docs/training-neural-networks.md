@@ -52,7 +52,7 @@ So in our case, the result of the input data and weight multiplication and addit
 
 ### Activation Functions in Brief
 
-The frequency of the firing of an artificial neuron is determined by an activation function. It determines at what threshold the neuron will fire and what the output will look like. This section describes the Sigmoid activation function to bring clarity to the operation of an artificial neuron. There are a number of activation functions which are suitable in different situations, these are discussed in the [Neural Network Activation Functions](/training-models/neural-network-activation-functions/) page.
+The frequency of the firing of an artificial neuron is determined by an activation function. It determines at what threshold the neuron will fire and what the output will look like. This section describes the Sigmoid activation function to bring clarity to the operation of an artificial neuron. There are a number of activation functions which are suitable in different situations.
 
 <div style="text-align:center;"><img src="https://securitykiwi.b-cdn.net/images/training-algorithms/sigmoid-activation-function.jpg" alt="A graph showing the sigmoid activation function." style="width:450px;"/></div>
 
@@ -70,7 +70,9 @@ The Iris data set consists of 150 samples of four features per sample, measuring
 
 <p style="text-align: center; font-style: italic;">Images of each of the three flower species. Credit: Ashok Kumar.</p>
 
-We aim to classify flowers from the Iris dataset into their species categories based on the predictions made from the measurements. I encourage you to follow along in [Jupyter Notebooks](/environment-setup).
+We aim to classify flowers from the Iris dataset into their species categories based on the predictions made from the measurements. I encourage you to follow along in <a href="/docs/environment-setup/" target="_blank">Jupyter Notebooks</a>.
+
+Google Colab environments are comming soon.
 
 #### Import Dependancies
 
