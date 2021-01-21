@@ -5,11 +5,9 @@ author:
 
 <style>p {text-align: justify;}</style>
 
-Here we will train a neural network and go through how the algorithm learns to predict which category a value belongs to based on previous data it has observed. Starting with a short explanation of what a neural network is and its architecture, we will then use scitkit-learns implementation of a simple neural network - a <i>Perceptron</i> - to see it in action.
+On this page we will train two neural networks, a single-layer network to categorise simple data and a multi-layer network to compute XOR logic. Along the way we will learn how data passes through a neural network and how activation functions work to gain understanding of how training neural networks works. We start with a short explanation of what a neural network is and its architecture, and get practical by using scitkit-learns to implement a simple neural network - a <i>Perceptron</i>.
 
-The Perceptron was designed by Frank Rosenblatt in 1956 and is the foundation of modern neural networks architectures. Designed to mimic the architecture of a basic biological neuron Rosenblatt thought mimicking nature may open new avenues of discovery. The perceptron is no longer widely used due to its simplicity and more effective methods being developed over time, however, this simple artificial neural network will be perfect for our initial learning.
-
-The section below will be our first exposure to complex-looking math. We're using it to describe values and the processes involved, intertwined with English. If you're not comfortable with math, please do read it, don't skim or skip over it.
+The section below will be our first exposure to complex-looking math. We're using it to describe values and the processes involved, intertwined with English. If you're not comfortable with math, please do read it, _don't skim or skip over it_.
 
 #### Contents
 
