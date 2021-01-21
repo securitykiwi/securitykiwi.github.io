@@ -62,17 +62,20 @@ Below is an overview of the course content by page/section title. New content is
 * Training Models
     * Introduction to Training
     * Training Regression Models
-    
-**Content coming by the end of January:**
-
-* Training Models (Continued)
     * Training Neural Networks
-    * Neural Network Activation Functions
 * Algorithms & Techniques
-    * Convolutional Neural Networks
+    * Introduction to Algorithms and Techniques
+* Open Datasets & Analysis
+    * Introduction to Open Datasets and Analysis
 * Resources
     * Glossary
     
+**Content coming at the next update 28th January:**
+
+* Training Models (Continued)
+    * Neural Network Activation Functions
+* Algorithms & Techniques
+    * Convolutional Neural Networks    
 
 ## The Future of the Course
 
@@ -121,3 +124,7 @@ Sign up for <a href="http://eepurl.com/dpUUKD" target="_blank">email updates</a>
 ## Feedback
 
 If you have feedback, questions or find a typo please reach out at <a href="/contact">securitykiwi [ at ] protonmail [dot] com</a>. Seriously, if you think a section isn't clear or have constructive feedback, drop me an email. 
+
+---
+
+Share a page with a friend!
