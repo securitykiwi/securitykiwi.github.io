@@ -5,8 +5,6 @@ author:
 
 <style>p {text-align: justify;}</style>
 
-# Neural Network Activation Functions
-
 Activation functions are a mathmatical function which determine the output of an individual neuron based on its input(s). Depending on the activation function used the neuron will activate ('fire') at intervals based on input and create different output. For example, a step function creates a threshold where the neuron fires in two positions (on and off); whereas a sigmod activation function will compress the input to values between 0 and 1 (0.0, 0.1, 0.2 ... 1.0). These two vastly different approaches are suited to different tasks, we discuss these and a number of others below. 
 
 This page is designed to give you a foundational understanding of activation functions and serve as a reference when you encounter them in tutorials or during your own research. Not all activation functions are listed here, only the most widely used.
