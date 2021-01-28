@@ -1,18 +1,11 @@
 # Changelog page source
-
-- title: January 28th Update
-  label: 
-  date: Jan 28, 2021
-  list:
-  - Neural Network Activation Functions (Training Models)
-  - Convolutional Neural Networks (Algorithms & Techniques)
   
 - title: February 4th Update
   label: 
   date: Feb 4, 2021
   list:
+  - Convolutional Neural Networks (Algorithms & Techniques)
   - Optimization Algorithms (Training Models)
-  - Open Source Machine Learning Tools (Resources)
   - URG16 Dataset Analysis (Open Datasets & Analysis)
   
 - title: February 18th Update
@@ -20,14 +13,11 @@
   date: Feb 18, 2021
   list:
   - Challenges in Training (Training Models)
-  - Regression (Algorithms & Techniques)
-  - DARPA 1998/1999 Dataset Analysis (Open Datasets & Analysis)
+  - Open Source Machine Learning Tools (Resources)
   
 - title: March 4th Update
   label: 
   date: Mar 4, 2021
   list:
   - More detail soon.
-  
-  
   
