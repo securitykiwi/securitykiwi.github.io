@@ -9,7 +9,7 @@ This section aims to provide learners with a library of detailed information on 
 
 ## Algorithm Library
 
-* Convolutional Neural Network (coming 21st January)
+* Convolutional Neural Network (coming soon)
 * Decision Tree (coming soon)
 * Deep Belief Network (coming soon)
 * Recurrent Neural Netork (coming soon)
