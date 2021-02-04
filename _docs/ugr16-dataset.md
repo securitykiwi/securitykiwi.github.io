@@ -76,7 +76,7 @@ UGR16 was created to overcome some of the specific limitations of other IDS data
 
 <div style="text-align:center;"><img src="/assets/images/ugr16-dataset-versus-other-datasets-table.png" alt="." style="width:600px;"/></div>
 
-<p style="text-align: center; font-style: italic;">.</p>
+<p style="text-align: center; font-style: italic;">Table of comparison for IDS datasets, Maciá-Fernández et al (2016).</p>
 
 ## Summary
 
@@ -90,7 +90,7 @@ hpHost blocklist's are no longer availalbe and the website now redirects to Malw
 
 ## References
 
-<ul>
+<ol>
 
 <li>Garcia, S., Grill, M., Stiborek J., and Zunino, A. (2014) <i>The CTU-13 Dataset. A Labeled Dataset with Botnet, Normal and Background traffic.</i>. <a href="https://www.stratosphereips.org/datasets-ctu13" target="_blank">https://www.stratosphereips.org/datasets-ctu13</a></li>
 
@@ -104,4 +104,4 @@ hpHost blocklist's are no longer availalbe and the website now redirects to Malw
 
 <li>Malware DL (2020) <i>Malware Domain List</i>. <a href="https://www.malwaredomainlist.com/" target="_blank">https://www.malwaredomainlist.com/</a> </li>
 
-</ul>
+</ol>
