@@ -24,6 +24,7 @@
   - training-regression-models
   - training-neural-networks
   - neural-network-activation-functions
+  - optimization-algorithms
 
 - title: Algorithms & Techniques
   docs:
@@ -32,6 +33,7 @@
 - title: Open Datasets & Analysis
   docs:
   - introduction-to-open-datasets-and-analysis
+  - urg16-dataset
   
 - title: Resources
   docs:

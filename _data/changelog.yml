@@ -1,23 +1,16 @@
 # Changelog page source
   
-- title: February 4th Update
-  label: 
-  date: Feb 4, 2021
-  list:
-  - Convolutional Neural Networks (Algorithms & Techniques)
-  - Optimization Algorithms (Training Models)
-  - URG16 Dataset Analysis (Open Datasets & Analysis)
-  
 - title: February 18th Update
   label: 
   date: Feb 18, 2021
   list:
+  - Convolutional Neural Networks (Algorithms & Techniques)
   - Challenges in Training (Training Models)
-  - Open Source Machine Learning Tools (Resources)
   
 - title: March 4th Update
   label: 
   date: Mar 4, 2021
   list:
+  - Open Source Machine Learning Tools (Resources)
   - More detail soon.
   
