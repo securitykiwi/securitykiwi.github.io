@@ -4,122 +4,155 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
 
 <url>
   <loc>https://security.kiwi/</loc>
-  <lastmod>2021-01-07T12:49:35+00:00</lastmod>
+  <lastmod>2021-02-04T12:18:05+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://security.kiwi/docs/introduction/</loc>
-  <lastmod>2021-01-07T12:49:35+00:00</lastmod>
+  <lastmod>2021-02-04T12:18:05+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://security.kiwi/blog/</loc>
-  <lastmod>2021-01-07T12:49:35+00:00</lastmod>
+  <lastmod>2021-02-04T12:18:05+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://security.kiwi/road-map/</loc>
-  <lastmod>2021-01-07T12:49:35+00:00</lastmod>
+  <lastmod>2021-02-04T12:18:05+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://security.kiwi/contact/</loc>
-  <lastmod>2021-01-07T12:49:35+00:00</lastmod>
+  <lastmod>2021-02-04T12:18:05+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://security.kiwi/docs/what-is-machine-learning/</loc>
-  <lastmod>2021-01-07T12:49:35+00:00</lastmod>
+  <lastmod>2021-02-04T12:18:05+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://security.kiwi/docs/types-of-machine-learning/</loc>
-  <lastmod>2021-01-07T12:49:35+00:00</lastmod>
+  <lastmod>2021-02-04T12:18:05+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://security.kiwi/docs/machine-learning-project-stages/</loc>
-  <lastmod>2021-01-07T12:49:35+00:00</lastmod>
+  <lastmod>2021-02-04T12:18:05+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://security.kiwi/docs/machine-learning-examples-in-security/</loc>
-  <lastmod>2021-01-07T12:49:35+00:00</lastmod>
+  <lastmod>2021-02-04T12:18:05+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://security.kiwi/docs/how-to-approach-learning/</loc>
-  <lastmod>2021-01-07T12:49:35+00:00</lastmod>
+  <lastmod>2021-02-04T12:18:05+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://security.kiwi/docs/python-refresher/</loc>
-  <lastmod>2021-01-07T12:49:35+00:00</lastmod>
+  <lastmod>2021-02-04T12:18:05+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://security.kiwi/docs/environment-setup/</loc>
-  <lastmod>2021-01-07T12:49:35+00:00</lastmod>
+  <lastmod>2021-02-04T12:18:05+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://security.kiwi/docs/considering-data/</loc>
-  <lastmod>2021-01-07T12:49:35+00:00</lastmod>
+  <lastmod>2021-02-04T12:18:05+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://security.kiwi/docs/collecting-data/</loc>
-  <lastmod>2021-01-07T12:49:35+00:00</lastmod>
+  <lastmod>2021-02-04T12:18:05+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://security.kiwi/docs/existing-datasets-and-data-sources/</loc>
-  <lastmod>2021-01-07T12:49:35+00:00</lastmod>
+  <lastmod>2021-02-04T12:18:05+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://security.kiwi/docs/challenges-of-datasets/</loc>
-  <lastmod>2021-01-07T12:49:35+00:00</lastmod>
+  <lastmod>2021-02-04T12:18:05+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://security.kiwi/docs/exploring-datasets/</loc>
-  <lastmod>2021-01-07T12:49:35+00:00</lastmod>
+  <lastmod>2021-02-04T12:18:05+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://security.kiwi/docs/dataset-preparation/</loc>
-  <lastmod>2021-01-07T12:49:35+00:00</lastmod>
+  <lastmod>2021-02-04T12:18:05+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://security.kiwi/docs/introduction-to-training-models/</loc>
-  <lastmod>2021-01-07T12:49:35+00:00</lastmod>
+  <lastmod>2021-02-04T12:18:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://security.kiwi/docs/training-regression-models/</loc>
+  <lastmod>2021-02-04T12:18:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://security.kiwi/docs/training-neural-networks/</loc>
+  <lastmod>2021-02-04T12:18:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://security.kiwi/docs/neural-network-activation-functions/</loc>
+  <lastmod>2021-02-04T12:18:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://security.kiwi/docs/optimization-algorithms/</loc>
+  <lastmod>2021-02-04T12:18:05+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://security.kiwi/docs/introduction-to-algorithms-and-techniques/</loc>
-  <lastmod>2021-01-07T12:49:35+00:00</lastmod>
+  <lastmod>2021-02-04T12:18:05+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://security.kiwi/docs/introduction-to-open-datasets-and-analysis/</loc>
-  <lastmod>2021-01-07T12:49:35+00:00</lastmod>
+  <lastmod>2021-02-04T12:18:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://security.kiwi/docs/ugr16-dataset/</loc>
+  <lastmod>2021-02-04T12:18:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://security.kiwi/docs/glossary/</loc>
+  <lastmod>2021-02-04T12:18:05+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://security.kiwi/privacy-policy/</loc>
-  <lastmod>2021-01-07T12:49:35+00:00</lastmod>
+  <lastmod>2021-02-04T12:18:05+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
+  <loc>https://security.kiwi/intercept-and-analyse-whatsapp-and-social-media/</loc>
+  <lastmod>2021-02-04T12:18:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
   <loc>https://security.kiwi/coming-on-january-7-2021/</loc>
-  <lastmod>2021-01-07T12:49:35+00:00</lastmod>
+  <lastmod>2021-02-04T12:18:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 
