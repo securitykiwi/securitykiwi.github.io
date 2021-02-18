@@ -55,7 +55,7 @@ This example is a useful showcase on how data can be encoded into different form
 
 Convolutional neural networks are similar to other neural networks; they are made up of individual neurons with learnable weights and biases, and they calculate the output of functions based on the purpose of that layer of the network. However, they have a number of technical features which differenciate them from other techniques. Below, we discuss the internals of CNN's to gain an understanding of how they work.
 
-<div style="text-align:center;"><img src="/assets/images/convolutional-neural-network-diagram.png" alt="A diagram of a convolutional neural network." style="width:500px;"/></div>
+<div style="text-align:center;"><img src="/assets/images/convolutional-neural-network-diagram.png" alt="A diagram of a convolutional neural network." style="width:700px;"/></div>
 
 <p style="text-align: center; font-style: italic;">A convolutional neural network architecture.</p>
 
