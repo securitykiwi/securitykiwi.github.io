@@ -25,10 +25,12 @@
   - training-neural-networks
   - neural-network-activation-functions
   - optimization-algorithms
+  - challenges-in-training-models
 
 - title: Algorithms & Techniques
   docs:
   - introduction-to-algorithms-and-techniques
+  - convolutional-neural-network
   
 - title: Open Datasets & Analysis
   docs:
