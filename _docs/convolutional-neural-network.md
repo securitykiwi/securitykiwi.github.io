@@ -5,7 +5,7 @@ author:
 
 <style>p {text-align: justify;}</style>
 
-Convolutional Neural Networks (CNN) are a type of neural network architecture inspired by the architecture a specific part of the mammalian brain - the visual cortex. This area of the brain is optimized to process the three-dimensional data of the real-world; height, width, depth. Neurobiologists don’t appreciate such comparisons, as the similarity to real biological systems is vague, neural networks are simplified models of biological architecture. However, in the computing world, these tools which have been inspired by nature have surpassed existing tools performance and their similarity to biological neural systems fuels the excitment from readers.
+Convolutional Neural Networks (CNN) are a type of neural network architecture inspired by the architecture of the visual cortex in mammal brains. This area of the brain is optimized to process the three-dimensional data of the real-world; height, width, depth. Neurobiologists don’t appreciate such comparisons, as the similarity to real biological systems is vague, neural networks are simplified models of biological architecture. However, in the computing world, these tools which have been inspired by nature have surpassed existing tools performance and their similarity to biological neural systems fuels the excitment from readers.
 
 ## An Extra Dimension
 
