@@ -13,7 +13,7 @@ Course content is updated twice a month, on the first and third thursday. Below 
 Eventually, the Algorithms & Techniques section will include:
 
 <ul>
-    <li>Convolutional Neural Networks (CNN)</li>
+    <li><a href="/docs/convolutional-neural-network">Convolutional Neural Networks (CNN)</a></li>
     <li>Recurrent Neural Network (RNN)</li>
     <li>Decision Tree</li>
     <li>Deep Belief Network (DBN)</li>
