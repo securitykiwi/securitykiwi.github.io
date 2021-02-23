@@ -70,7 +70,7 @@ The Iris data set consists of 150 samples of four features per sample, measuring
 
 We aim to classify flowers from the Iris dataset into their species categories based on the predictions made from the measurements. I encourage you to follow along in <a href="/docs/environment-setup/" target="_blank">Jupyter Notebooks</a>.
 
-Google Colab environments are coming soon.
+The code below is availalbe in a <a href="https://colab.research.google.com/drive/118jC1VRZV5Nk5QHSwRKCjMpHhsuxDHU4" target="_blank">Google colab live environment</a>.
 
 #### Import Dependancies
 
