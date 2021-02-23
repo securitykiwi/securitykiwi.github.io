@@ -80,8 +80,8 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.linear_model import Perceptron
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
-from matplotlib.pyplot as plt
-from numpy as np
+import matplotlib.pyplot as plt
+import numpy as np
 ```
 
 #### Load the Dataset
@@ -184,7 +184,7 @@ sc.fit(x_train)
 
 # Apply the scaler to the split datasets
 x_train_std = sc.transform(x_train)
- x_test_std = sc.transform(x_test)
+x_test_std = sc.transform(x_test)
 ```
 
 #### Training a Perceptron
