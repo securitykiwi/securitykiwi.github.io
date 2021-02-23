@@ -421,6 +421,8 @@ Finally, we calculate the output O:
 
 Lets put this into practice by building a neural network to predict XOR using scikit-learn. We can utilise scikit-learns multi-layer perceptron. We'll also visualise the decision boundaries to help us understand how the algorithm comes to its decisions during training.
 
+A <a href="https://colab.research.google.com/drive/1UG_y3sDHwazZjr4tBFMidK1908jG_kVm" target="_blank">Google colab live environment</a> is availalbe for the code below.
+
 #### Setup
 
 ```python
@@ -445,7 +447,6 @@ def plot_decision_boundary(classifier, X, y, title):
     step = 0.01
     
     cm = plt.cm.coolwarm_r
-    #cm = plt.cm.RdBu
     
     thr = 0.0
     xx, yy = np.meshgrid(np.arange(xmin - thr, xmax + thr, step), np.arange(ymin - thr, ymax + thr, step))
