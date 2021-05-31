@@ -10,9 +10,6 @@ left:
   - title: Blog
     url: /blog/
 
-  - title: Road Map
-    url: /road-map
-
 # Navbar right menu navigation links
 
 right:

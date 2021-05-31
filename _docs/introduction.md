@@ -39,7 +39,7 @@ The course is freely accessible, I don't like the idea of putting heafty financi
 
 ### Course Content
 
-Below is an overview of the course content by page/section title. New content is added once every two weeks; major updates on the first and minor updates third Thursday of the month. See the <a href="/road-map" target="_blank">Road Map</a> for detail on things to come.
+Below is an overview of the course content by page/section title. New content is added once every two weeks; major updates on the first and minor updates third Thursday of the month.
 
 **Current content:**
 
