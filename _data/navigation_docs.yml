@@ -26,6 +26,12 @@
   - neural-network-activation-functions
   - optimization-algorithms
   - challenges-in-training-models
+  
+- title: Model Evaluaiton & Tuning
+  docs:
+  - model-experimentation
+  - model-evaluation
+  - model-tuning
 
 - title: Algorithms & Techniques
   docs:
