@@ -9,7 +9,7 @@ This section aims to provide learners with a library of detailed information on 
 
 ## Algorithm Library
 
-* Convolutional Neural Network (coming soon)
+* <a href="https://security.kiwi/docs/convolutional-neural-network/">Convolutional Neural Network</a>
 * Decision Tree (coming soon)
 * Deep Belief Network (coming soon)
 * Recurrent Neural Netork (coming soon)
