@@ -33,17 +33,9 @@ Holdout is the most common and easiest method to use, we only train one model an
 
 K-Fold cross-validation allows us to obtain the benefits we mentioned above. The process splits our dataset up into chunks and trains a model using the individual chunks. As there can be any number of chunks depending on the size of the dataset, it can be said that we split the dataset into _K_ chunks and train _K_ times. For example, we have K = 5 so we train 5 times, each trained on a separate chunk. We get the performance by averaging the result from each training session.
 
-<div style="text-align:center;"><img src="/assets/images/training-algorithms/" alt="An example of K-Fold Cross-Validaiton splitting up a dataset and training on individual chuncks." style="width:400px;"/></div>
-
-<p style="text-align: center; font-style: italic;">Example of K-fold cross-validation method.</p>
-
 ### Repeated Random Sub-Sampling
 
-The final type of cross-validation we will discuss is repeated random sub-sampling. This method is similar to K-fold cross-validation, however, _K_ is not equally sized chunks of the dataset. Instead, we train on randomly selected samples from the entire set in the form of a percentage, i.e we train on 10% of the dataset selected at random. We then train multiple models on each, as in K-fold cross-validation.
-
-<div style="text-align:center;"><img src="/assets/images/training-algorithms/" alt="An example of K-Fold Cross-Validaiton splitting up a dataset and training on individual chuncks." style="width:400px;"/></div>
-
-<p style="text-align: center; font-style: italic;">Example of repeated random sub-sampling in cross-validation.</p>
+The final type of cross-validation we will discuss is repeated random sub-sampling. This method is similar to K-fold cross-validation, however, `K` is not equally sized chunks of the dataset. Instead, we train on randomly selected samples from the entire set in the form of a percentage, i.e we train on 10% of the dataset selected at random. We then train multiple models on each, as in K-fold cross-validation.
 
 The weakness of this approach is its randomness, we may never select some data points and we may select multiple points more than once. However, randomness provides protection from selection bias. K-fold may hold the best balance, depending on your application.
 
